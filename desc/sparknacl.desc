@@ -1,0 +1,6 @@
+{
+"root": {"name": "sparknacl", "path": "projects/sparknacl"},
+"projects": [
+    {"path": "src/sparknacl.gpr", "files": []}
+]
+}

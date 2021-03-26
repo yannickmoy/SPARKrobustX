@@ -1,0 +1,14 @@
+{
+"root": {"name": "spark-by-example", "path": "projects/spark-by-example"},
+"projects": [
+    {"path": "binary-search/binary_search_algorithms.gpr", "files": ["binary_search_p.adb", "search_equal_range_p.adb", "search_upper_bound_p.adb", "search_equal_range_opt_p.adb", "search_lower_bound_p.adb"]},
+    {"path": "classic-sorting/classic_sorting_algorithms.gpr", "files": ["heap_sort_p.adb", "insertion_sort_p.adb", "selection_sort_p.adb"]},
+    {"path": "heap/heap_algorithms.gpr", "files": ["is_heap_p.adb", "make_heap_p.adb", "pop_heap_p.adb", "push_heap_p.adb", "sort_heap_p.adb"]},
+    {"path": "lemmas/lemmas.gpr", "files": ["classic_lemmas.adb", "partial_sort_lemmas.adb", "pop_heap_lemmas.adb", "push_heap_lemmas.adb", "remove_copy_lemmas.adb", "shuffle_lemmas.adb"]},
+    {"path": "maxmin/max_min_algorithms.gpr", "files": ["max_element_p.adb", "max_element_wo_ghost_p.adb", "max_seq_p.adb", "min_element_p.adb"]},
+    {"path": "mutating/mutating_algorithms.gpr", "files": ["copy_p.adb", "fill_agg_p.adb", "fill_p.adb", "random_p.adb", "random_shuffle_p.adb", "remove_copy_first_p.adb", "remove_copy_p.adb", "remove_copy_second_p.adb", "replace_copy_p.adb", "replace_p.adb", "reverse_copy_p.adb", "reverse_in_place_p.adb", "reverse_in_place_swap_p.adb", "rotate_copy_p.adb", "rotate_p.adb", "swap_array_p.adb", "swap_p.adb", "swap_ranges_index_p.adb", "swap_ranges_p.adb"]},
+    {"path": "non-mutating/non_mutating_algorithms.gpr", "files": ["adjacent_find_p.adb", "count_p.adb", "equal_p.adb", "find_end_p.adb", "find_first_of_p.adb", "find_p.adb", "mismatch_p.adb", "naive_find_p.adb", "search_n_p.adb", "search_p.adb", "search_with_ghost_p.adb", "search_wo_ghost_p.adb"]},
+    {"path": "numeric/numeric_algorithms.gpr", "files": ["accumulate_naive_p.adb", "accumulate_p.adb", "adjacent_difference_p.adb", "inner_product_p.adb", "iota_p.adb", "numeric_inv.adb", "partial_sum_p.adb"]},
+    {"path": "sorting/sorting_algorithms.gpr", "files": ["is_sorted_p.adb", "partial_sort_p.adb"]}
+]
+}
