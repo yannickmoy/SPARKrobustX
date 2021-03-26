@@ -43,7 +43,7 @@ description files for the JSON format).
 ## Experiment
 
 To run the experiment, execute the script ``run_and_compare.py`` on the
-description of your project.
+description of your project. You need a version of Python3 >= 3.5
 
 Results of the GNATprove runs are stored under the ``results`` subdirectory, by
 default under the current directory, or when ``--output`` switch is used under
