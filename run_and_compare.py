@@ -352,7 +352,7 @@ def run_one_project_configuration(project, version, prover):
 
     # Run GNATprove on the given project
     cmd = [gnatprove, '-P', project_path,
-           '-j', num_procs,
+           '-j', str(num_procs),
            '--quiet',
            '--prover=' + ','.join(prover),
            '--timeout=60',
