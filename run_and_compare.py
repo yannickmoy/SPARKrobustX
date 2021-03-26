@@ -39,6 +39,7 @@ version_num = {'2018':0, '2019':1, '2020':2}
 project_results = {}
 
 verbose = False
+num_procs = 0
 root_results = '.'
 
 def results_dir():
@@ -351,7 +352,7 @@ def run_one_project_configuration(project, version, prover):
 
     # Run GNATprove on the given project
     cmd = [gnatprove, '-P', project_path,
-           '-j0',
+           '-j', num_procs,
            '--quiet',
            '--prover=' + ','.join(prover),
            '--timeout=60',
@@ -515,13 +516,15 @@ def aggregate_project_results():
 if __name__ == '__main__':
     # Parse args
     parser = argparse.ArgumentParser()
-    parser.add_argument('desc', help='The description of the projects to analyse')
-    parser.add_argument('--verbose', action='store_true', help='Print additional messages')
-    parser.add_argument('--do', choices=['run', 'compare'], help='Run the analyses or extract data from analyses')
-    parser.add_argument('--output', help='Specify to use a different output directory')
+    parser.add_argument('desc', help='the description of the projects to analyse')
+    parser.add_argument('--verbose', action='store_true', help='print additional messages')
+    parser.add_argument('--do', choices=['run', 'compare'], help='run the analyses or extract data from analyses')
+    parser.add_argument('--output', help='specify to use a different output directory')
+    parser.add_argument('--procs', type=int, default=0, help='max number of cores to use (default: all available)')
     args = parser.parse_args()
 
     verbose = args.verbose
+    num_procs = args.procs
 
     if args.output is not None:
         root_results = args.output
