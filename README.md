@@ -23,14 +23,30 @@ You can run the experiment with the projects that we used:
 - [SPARKNaCl](https://github.com/rod-chapman/SPARKNaCl), a rewrite of the
   cryptographic library TweetNaCl in SPARK by Rod Chapman
 
-For each project, we have tagged a specific version to use that can be analyzed
-with all three versions of SPARK, with tag ``robustX``.  Also, we have
-separately tagged a version without redundant assertions, with tag
+- [SPARK Red-Black
+  Trees](http://toccata.lri.fr/gallery/spark_red_black_trees.en.html), an
+  implementation of red-black trees in SPARK from Claire Dross, which was used
+  as the basis for an article at NASA Formal Methods 2017
+
+For each project on GitHub, we have tagged a specific version to use that can
+be analyzed with all three versions of SPARK, with tag ``robustX``.  Also, we
+have separately tagged a version without redundant assertions, with tag
 ``robustXnoassert``.  Use the following URLs to retrieve these versions:
 
 - [SPARK-by-Example](https://github.com/yannickmoy/spark-by-example)
 
 - [SPARKNaCl](https://github.com/yannickmoy/SPARKNaCl)
+
+For SPARK Red-Black Trees, download the zip archive and use the following
+project files:
+
+- ``projects/sparkrbt.gpr`` for the run with assertions
+
+- ``projects/sparkrbt_noassert.gpr`` together with file
+  ``projects/noassert.adc`` for the run without assertions
+
+Just copy these three files at the root of the ``spark_red_black_trees``
+directory.
 
 Then create a symbolic link from ``projects/<project>`` to the root of each
 project.
