@@ -1,0 +1,7 @@
+{
+"root": {"name": "spark_red_black_trees", "path": "projects/spark_red_black_trees"},
+"projects": [
+    {"path": "sparkrbt.gpr", "files": []},
+    {"path": "sparkrbt_noassert.gpr", "files": []}
+]
+}

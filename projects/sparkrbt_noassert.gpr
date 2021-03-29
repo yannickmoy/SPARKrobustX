@@ -1,0 +1,8 @@
+project SPARKrbt_Noassert is
+   package Builder is
+      for Global_Configuration_Pragmas use "noassert.adc";
+   end Builder;
+   package Prove is
+      for Switches use ("--no-axiom-guard");
+   end Prove;
+end SPARKrbt_Noassert;

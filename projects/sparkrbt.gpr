@@ -1,0 +1,5 @@
+project SPARKrbt is
+   package Prove is
+      for Switches use ("--no-axiom-guard");
+   end Prove;   
+end SPARKrbt;
