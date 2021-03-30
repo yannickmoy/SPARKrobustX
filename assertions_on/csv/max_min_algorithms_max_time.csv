@@ -1,0 +1,11 @@
+unit, 2018/z3, 2018/cvc4, 2018/altergo, 2019/z3, 2019/cvc4, 2019/altergo, 2020/z3, 2020/cvc4, 2020/altergo, 
+max_element_p, 0, 0, 4, 0, 0, 0, 0, 0, 0, 
+max_element_wo_ghost_p, 0, 0, 30, 0, 0, 0, 0, 0, 0, 
+max_seq_p, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+min_element_p, 0, 0, 5, 0, 0, 0, 0, 0, 0, 
+total, 0, 0, 30, 0, 0, 0, 0, 0, 0, 
+
+, 2018, 2019, 2020, 
+z3, 0, 0, 0, 
+cvc4, 0, 0, 0, 
+altergo, 30, 0, 0, 

@@ -1,0 +1,134 @@
+{"project": {"path": "numeric/numeric_algorithms.gpr", "files": ["accumulate_naive_p.adb", "accumulate_p.adb", "adjacent_difference_p.adb", "inner_product_p.adb", "iota_p.adb", "numeric_inv.adb", "partial_sum_p.adb"]}, "version": "2018", "prover": ["altergo"]}
+iota_p.adb:11:19: info: initialization of "Count" proved
+iota_p.adb:12:19: info: initialization of "Count" proved
+iota_p.adb:12:25: info: overflow check proved (altergo: 2 VC in max 0.0 seconds and 53 steps)
+iota_p.adb:13:33: info: initialization of "Count" proved
+iota_p.adb:13:33: info: loop invariant preservation proved (altergo: 1 VC in max 0.0 seconds and 43 steps)
+iota_p.adb:13:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 25 steps)
+iota_p.adb:14:33: info: loop invariant preservation proved (altergo: 1 VC in max 0.2 seconds and 234 steps)
+iota_p.adb:14:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 59 steps)
+iota_p.adb:14:33: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 109 steps)
+iota_p.adb:14:42: info: range check proved (altergo: 4 VC in max 0.0 seconds and 32 steps)
+iota_p.ads:10:22: info: range check proved (altergo: 1 VC in max 0.0 seconds and 26 steps)
+iota_p.ads:11:15: info: postcondition proved (altergo: 1 VC in max 0.0 seconds and 132 steps)
+iota_p.ads:11:15: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 151 steps)
+accumulate_naive_p.adb:15:20: info: initialization of "Result" proved
+accumulate_naive_p.adb:15:27: medium: overflow check might fail
+accumulate_naive_p.adb:16:33: info: initialization of "Result" proved
+accumulate_naive_p.adb:16:33: info: loop invariant preservation proved (altergo: 1 VC in max 0.3 seconds and 376 steps)
+accumulate_naive_p.adb:16:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.4 seconds and 369 steps)
+accumulate_naive_p.adb:16:51: info: range check proved (altergo: 4 VC in max 0.0 seconds and 33 steps)
+accumulate_naive_p.adb:19:14: info: initialization of "Result" proved
+accumulate_naive_p.ads:12:49: info: range check proved (altergo: 4 VC in max 0.0 seconds and 18 steps)
+accumulate_naive_p.ads:13:15: info: postcondition proved (altergo: 1 VC in max 0.2 seconds and 422 steps)
+accumulate_p.adb:14:20: info: initialization of "Result" proved
+accumulate_p.adb:14:27: medium: overflow check might fail
+accumulate_p.adb:15:33: info: initialization of "Result" proved
+accumulate_p.adb:15:33: info: loop invariant preservation proved (altergo: 1 VC in max 0.4 seconds and 701 steps)
+accumulate_p.adb:15:33: info: loop invariant initialization proved (altergo: 1 VC in max 1.3 seconds and 1311 steps)
+accumulate_p.adb:15:42: info: precondition proved (altergo: 5 VC in max 0.0 seconds and 56 steps)
+accumulate_p.adb:15:71: info: discriminant check proved (altergo: 1 VC in max 0.1 seconds and 127 steps)
+accumulate_p.adb:19:14: info: initialization of "Result" proved
+accumulate_p.ads:12:40: info: precondition proved (altergo: 5 VC in max 0.0 seconds and 41 steps)
+accumulate_p.ads:13:15: info: postcondition proved (altergo: 1 VC in max 0.1 seconds and 239 steps)
+accumulate_p.ads:13:35: info: precondition proved (altergo: 5 VC in max 0.0 seconds and 56 steps)
+accumulate_p.ads:13:69: info: discriminant check proved (altergo: 1 VC in max 0.7 seconds and 869 steps)
+adjacent_difference_p.adb:11:14: info: index check proved (altergo: 2 VC in max 0.0 seconds and 21 steps)
+adjacent_difference_p.adb:11:29: info: index check proved (altergo: 2 VC in max 0.0 seconds and 38 steps)
+adjacent_difference_p.adb:16:27: info: overflow check proved (altergo: 1 VC in max 0.0 seconds and 96 steps)
+adjacent_difference_p.adb:20:18: info: overflow check proved (altergo: 2 VC in max 0.0 seconds and 101 steps)
+adjacent_difference_p.adb:20:28: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 217 steps)
+adjacent_difference_p.adb:20:28: info: index check proved (altergo: 4 VC in max 0.1 seconds and 220 steps)
+adjacent_difference_p.adb:20:45: info: index check proved (altergo: 4 VC in max 0.0 seconds and 67 steps)
+adjacent_difference_p.adb:20:48: info: overflow check proved (altergo: 2 VC in max 0.4 seconds and 571 steps)
+adjacent_difference_p.adb:20:55: info: overflow check proved (altergo: 2 VC in max 0.0 seconds and 85 steps)
+adjacent_difference_p.adb:20:55: info: index check proved (altergo: 4 VC in max 0.0 seconds and 62 steps)
+adjacent_difference_p.adb:23:16: info: loop invariant preservation proved (altergo: 1 VC in max 0.1 seconds and 135 steps)
+adjacent_difference_p.adb:23:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 55 steps)
+adjacent_difference_p.adb:24:33: info: index check proved (altergo: 2 VC in max 0.1 seconds and 196 steps)
+adjacent_difference_p.adb:24:49: info: index check proved (altergo: 2 VC in max 0.0 seconds and 64 steps)
+adjacent_difference_p.adb:24:60: info: index check proved (altergo: 2 VC in max 0.0 seconds and 59 steps)
+adjacent_difference_p.adb:25:36: info: loop invariant preservation proved (altergo: 1 VC in max 0.0 seconds and 88 steps)
+adjacent_difference_p.adb:25:36: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 53 steps)
+adjacent_difference_p.adb:25:40: info: index check proved (altergo: 2 VC in max 0.0 seconds and 60 steps)
+adjacent_difference_p.adb:25:54: info: index check proved (altergo: 2 VC in max 0.0 seconds and 57 steps)
+adjacent_difference_p.ads:14:35: info: index check proved (altergo: 2 VC in max 0.0 seconds and 15 steps)
+adjacent_difference_p.ads:14:44: info: index check proved (altergo: 2 VC in max 0.0 seconds and 10 steps)
+adjacent_difference_p.ads:17:07: info: postcondition proved (altergo: 3 VC in max 0.2 seconds and 583 steps)
+adjacent_difference_p.ads:18:14: info: index check proved (altergo: 2 VC in max 0.0 seconds and 28 steps)
+adjacent_difference_p.ads:18:28: info: index check proved (altergo: 2 VC in max 0.0 seconds and 21 steps)
+adjacent_difference_p.ads:21:28: info: index check proved (altergo: 2 VC in max 0.1 seconds and 175 steps)
+adjacent_difference_p.ads:21:44: info: index check proved (altergo: 2 VC in max 0.0 seconds and 30 steps)
+adjacent_difference_p.ads:21:54: info: index check proved (altergo: 2 VC in max 0.0 seconds and 25 steps)
+partial_sum_p.adb:11:14: info: index check proved (altergo: 2 VC in max 0.0 seconds and 53 steps)
+partial_sum_p.adb:11:29: info: index check proved (altergo: 2 VC in max 0.0 seconds and 69 steps)
+partial_sum_p.adb:13:25: info: range check proved (altergo: 1 VC in max 0.0 seconds and 75 steps)
+partial_sum_p.adb:17:24: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 148 steps)
+partial_sum_p.adb:17:24: info: index check proved (altergo: 4 VC in max 0.1 seconds and 138 steps)
+partial_sum_p.adb:17:43: info: index check proved (altergo: 4 VC in max 0.1 seconds and 123 steps)
+partial_sum_p.adb:17:43: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 136 steps)
+partial_sum_p.adb:17:54: medium: overflow check might fail
+partial_sum_p.adb:17:67: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 151 steps)
+partial_sum_p.adb:17:67: info: index check proved (altergo: 4 VC in max 0.1 seconds and 154 steps)
+partial_sum_p.adb:20:16: info: loop invariant preservation proved (altergo: 1 VC in max 0.8 seconds and 748 steps)
+partial_sum_p.adb:20:16: info: loop invariant initialization proved (altergo: 1 VC in max 6.6 seconds and 12196 steps)
+partial_sum_p.adb:21:29: info: index check proved (altergo: 2 VC in max 0.1 seconds and 115 steps)
+partial_sum_p.adb:21:36: info: precondition proved (altergo: 5 VC in max 0.1 seconds and 150 steps)
+partial_sum_p.adb:21:72: info: discriminant check proved (altergo: 1 VC in max 0.1 seconds and 189 steps)
+partial_sum_p.ads:13:41: info: precondition proved (altergo: 5 VC in max 0.0 seconds and 42 steps)
+partial_sum_p.ads:15:07: info: postcondition proved (altergo: 1 VC in max 0.9 seconds and 1792 steps)
+partial_sum_p.ads:15:27: info: range check proved (altergo: 1 VC in max 0.0 seconds and 62 steps)
+partial_sum_p.ads:16:21: info: index check proved (altergo: 2 VC in max 0.1 seconds and 109 steps)
+partial_sum_p.ads:16:28: info: precondition proved (altergo: 5 VC in max 0.1 seconds and 217 steps)
+partial_sum_p.ads:16:64: info: discriminant check proved (altergo: 1 VC in max 0.2 seconds and 291 steps)
+inner_product_p.adb:12:22: info: range check proved (altergo: 1 VC in max 0.1 seconds and 221 steps)
+inner_product_p.adb:15:20: info: initialization of "Result" proved
+inner_product_p.adb:15:27: medium: overflow check might fail
+inner_product_p.adb:15:40: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 155 steps)
+inner_product_p.adb:15:40: info: index check proved (altergo: 4 VC in max 0.1 seconds and 158 steps)
+inner_product_p.adb:15:45: medium: overflow check might fail
+inner_product_p.adb:15:58: info: index check proved (altergo: 4 VC in max 0.1 seconds and 146 steps)
+inner_product_p.adb:15:58: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 143 steps)
+inner_product_p.adb:18:13: info: initialization of "Result" proved
+inner_product_p.adb:18:13: info: loop invariant preservation proved (altergo: 1 VC in max 1.0 seconds and 3314 steps)
+inner_product_p.adb:18:13: info: loop invariant initialization proved (altergo: 1 VC in max 2.1 seconds and 4866 steps)
+inner_product_p.adb:18:22: info: precondition proved (altergo: 5 VC in max 0.1 seconds and 79 steps)
+inner_product_p.adb:18:55: info: discriminant check proved (altergo: 1 VC in max 0.1 seconds and 177 steps)
+inner_product_p.adb:21:14: info: initialization of "Result" proved
+inner_product_p.ads:15:27: info: range check proved (altergo: 1 VC in max 0.1 seconds and 219 steps)
+inner_product_p.ads:15:42: info: precondition proved (altergo: 5 VC in max 0.0 seconds and 59 steps)
+inner_product_p.ads:16:15: info: postcondition proved (altergo: 1 VC in max 0.3 seconds and 454 steps)
+inner_product_p.ads:17:07: info: precondition proved (altergo: 5 VC in max 0.1 seconds and 63 steps)
+inner_product_p.ads:17:33: info: range check proved (altergo: 1 VC in max 0.0 seconds and 60 steps)
+inner_product_p.ads:17:51: info: discriminant check proved (altergo: 1 VC in max 1.1 seconds and 1110 steps)
+numeric_inv.adb:6:07: warning: initialization of "Init" has no effect
+numeric_inv.adb:13:07: info: precondition proved (altergo: 2 VC in max 0.2 seconds and 258 steps)
+numeric_inv.adb:16:07: warning: statement has no effect
+numeric_inv.adb:26:07: medium: precondition might fail
+numeric_inv.adb:36:18: info: index check proved (altergo: 2 VC in max 0.0 seconds and 50 steps)
+numeric_inv.adb:37:07: info: precondition proved (altergo: 2 VC in max 0.1 seconds and 202 steps)
+numeric_inv.adb:43:27: info: overflow check proved (altergo: 1 VC in max 0.1 seconds and 106 steps)
+numeric_inv.adb:47:20: info: initialization of "Tmp" proved
+numeric_inv.adb:47:24: medium: overflow check might fail
+numeric_inv.adb:47:31: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 108 steps)
+numeric_inv.adb:47:41: info: overflow check proved (altergo: 2 VC in max 0.1 seconds and 124 steps)
+numeric_inv.adb:47:41: info: index check proved (altergo: 4 VC in max 0.1 seconds and 113 steps)
+numeric_inv.adb:49:36: info: initialization of "Tmp" proved
+numeric_inv.adb:49:36: info: loop invariant preservation proved (altergo: 1 VC in max 0.4 seconds and 505 steps)
+numeric_inv.adb:49:36: info: loop invariant initialization proved (altergo: 1 VC in max 0.3 seconds and 399 steps)
+numeric_inv.adb:49:45: info: index check proved (altergo: 2 VC in max 0.1 seconds and 75 steps)
+numeric_inv.adb:52:18: medium: loop invariant might fail in first iteration, cannot prove Acc_Def (B, B'First, K - A'First + B'First, 0).OK
+numeric_inv.adb:52:18: info: precondition proved (altergo: 5 VC in max 0.1 seconds and 109 steps)
+numeric_inv.adb:54:20: medium: loop invariant might fail after first iteration, cannot prove Acc_Def (B, B'First, K - A'First + B'First, 0).Value = A (K)
+numeric_inv.adb:54:20: info: precondition proved (altergo: 5 VC in max 0.2 seconds and 297 steps)
+numeric_inv.adb:54:66: info: discriminant check proved (altergo: 1 VC in max 0.1 seconds and 112 steps)
+numeric_inv.adb:55:23: info: index check proved (altergo: 2 VC in max 0.0 seconds and 84 steps)
+numeric_inv.adb:57:16: info: loop invariant preservation proved (altergo: 1 VC in max 25.4 seconds and 35844 steps)
+numeric_inv.adb:58:18: medium: loop invariant might fail in first iteration, cannot prove Acc_Def (B, B'First, K, 0).OK
+numeric_inv.adb:58:18: info: precondition proved (altergo: 5 VC in max 0.1 seconds and 105 steps)
+numeric_inv.adb:61:07: medium: precondition might fail
+numeric_inv.ads:13:41: info: precondition proved (altergo: 5 VC in max 0.0 seconds and 50 steps)
+numeric_inv.ads:14:15: medium: postcondition might fail, cannot prove A = A'old
+numeric_inv.ads:20:32: info: index check proved (altergo: 2 VC in max 0.0 seconds and 47 steps)
+numeric_inv.ads:20:41: info: index check proved (altergo: 2 VC in max 0.0 seconds and 42 steps)
+numeric_inv.ads:21:15: medium: postcondition might fail, cannot prove A = A'old

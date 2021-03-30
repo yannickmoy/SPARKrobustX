@@ -1,0 +1,93 @@
+{"project": {"path": "classic-sorting/classic_sorting_algorithms.gpr", "files": ["heap_sort_p.adb", "insertion_sort_p.adb", "selection_sort_p.adb"]}, "version": "2018", "prover": ["cvc4", "altergo"]}
+selection_sort_p.adb:14:30: info: range check proved (CVC4: 8 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:14:46: info: discriminant check proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:15:10: info: precondition proved (CVC4: 10 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:15:25: info: range check proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:15:28: info: initialization of "Sel" proved
+selection_sort_p.adb:15:28: info: range check proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:17:33: info: loop invariant preservation proved (CVC4: 1 VC in max 0.3 seconds and 1 step)
+selection_sort_p.adb:17:33: info: loop invariant initialization proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:17:46: info: range check proved (CVC4: 4 VC in max 0.0 seconds and 1 step)
+selection_sort_p.adb:17:66: info: index check proved (CVC4: 2 VC in max 0.0 seconds and 1 step)
+selection_sort_p.adb:18:33: info: precondition proved (CVC4: 1 VC in max 0.0 seconds and 1 step)
+selection_sort_p.adb:18:33: info: loop invariant preservation proved (CVC4: 1 VC in max 0.3 seconds and 1 step)
+selection_sort_p.adb:18:33: info: loop invariant initialization proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:19:33: info: loop invariant preservation proved (CVC4: 1 VC in max 0.8 seconds and 395 steps)
+selection_sort_p.adb:19:33: info: loop invariant initialization proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+selection_sort_p.adb:19:41: info: range check proved (CVC4: 4 VC in max 0.0 seconds and 1 step)
+selection_sort_p.ads:13:15: info: postcondition proved (CVC4: 2 VC in max 0.2 seconds and 1 step)
+selection_sort_p.ads:13:35: info: precondition proved (CVC4: 1 VC in max 0.0 seconds and 1 step)
+heap_sort_p.adb:7:25: info: initialization of "H.A" proved
+heap_sort_p.adb:11:35: info: range check proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:14:20: info: precondition proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:15:17: info: length check proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:15:20: info: initialization of "H.A" proved
+heap_sort_p.adb:16:10: info: precondition proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:16:21: info: initialization of "H.A" proved
+heap_sort_p.adb:16:21: info: initialization of "H.Size" proved
+heap_sort_p.adb:19:13: info: precondition proved (CVC4: 6 VC in max 0.1 seconds and 1 step; altergo: 1 VC in max 0.9 seconds and 2686 steps)
+heap_sort_p.adb:19:31: info: initialization of "A_Save" proved
+heap_sort_p.adb:19:39: info: initialization of "H.A" proved
+heap_sort_p.adb:19:49: info: overflow check proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:22:10: info: precondition proved (CVC4: 5 VC in max 0.2 seconds and 1 step)
+heap_sort_p.adb:22:37: info: initialization of "A_Save" proved
+heap_sort_p.adb:22:37: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:22:57: info: initialization of "H.A" proved
+heap_sort_p.adb:22:58: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:23:10: info: precondition proved (CVC4: 5 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:23:34: info: initialization of "H.A" proved
+heap_sort_p.adb:23:35: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:24:12: info: length check proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:24:15: info: initialization of "H.A" proved
+heap_sort_p.adb:24:16: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+heap_sort_p.adb:25:10: info: precondition proved (CVC4: 4 VC in max 0.1 seconds and 1 step; altergo: 1 VC in max 3.5 seconds and 9076 steps)
+heap_sort_p.adb:25:41: info: initialization of "H.A" proved
+heap_sort_p.adb:25:42: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+heap_sort_p.ads:13:15: info: postcondition proved (CVC4: 2 VC in max 0.2 seconds and 1 step)
+heap_sort_p.ads:13:35: info: precondition proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:15:18: info: precondition proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:15:38: info: range check proved (CVC4: 8 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:15:54: info: overflow check proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:15:66: info: discriminant check proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:17:27: info: initialization of "K" proved
+insertion_sort_p.adb:17:34: info: overflow check proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:19:13: info: precondition proved (CVC4: 20 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:19:28: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:19:33: info: overflow check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:19:33: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:21:36: info: loop invariant preservation proved (CVC4: 4 VC in max 0.8 seconds and 183 steps)
+insertion_sort_p.adb:21:36: info: loop invariant initialization proved (CVC4: 4 VC in max 0.3 seconds and 1 step)
+insertion_sort_p.adb:21:43: info: initialization of "K" proved
+insertion_sort_p.adb:21:55: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:21:68: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:22:36: info: precondition proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:22:36: info: loop invariant preservation proved (CVC4: 2 VC in max 0.6 seconds and 51 steps)
+insertion_sort_p.adb:22:36: info: loop invariant initialization proved (CVC4: 2 VC in max 0.2 seconds and 1 step)
+insertion_sort_p.adb:24:16: info: loop invariant preservation proved (CVC4: 2 VC in max 0.2 seconds and 1 step)
+insertion_sort_p.adb:24:16: info: loop invariant initialization proved (CVC4: 2 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:24:52: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:24:71: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:25:36: info: loop invariant preservation proved (CVC4: 2 VC in max 0.4 seconds and 1 step)
+insertion_sort_p.adb:25:36: info: loop invariant initialization proved (CVC4: 2 VC in max 9.8 seconds and 5081 steps)
+insertion_sort_p.adb:25:44: info: range check proved (CVC4: 8 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:27:16: info: loop invariant preservation proved (CVC4: 2 VC in max 0.3 seconds and 1 step)
+insertion_sort_p.adb:27:16: info: loop invariant initialization proved (CVC4: 2 VC in max 0.2 seconds and 1 step)
+insertion_sort_p.adb:27:40: info: initialization of "K" proved
+insertion_sort_p.adb:27:52: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:27:61: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:28:36: info: loop invariant preservation proved (CVC4: 1 VC in max 0.0 seconds and 1 step; altergo: 1 VC in max 1.6 seconds and 4004 steps)
+insertion_sort_p.adb:28:36: info: loop invariant initialization proved (CVC4: 2 VC in max 0.2 seconds and 1 step)
+insertion_sort_p.adb:28:49: info: initialization of "K" proved
+insertion_sort_p.adb:28:62: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:28:71: info: index check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:29:36: medium: loop invariant might fail after first iteration, cannot prove Sorted (A (L..J))
+insertion_sort_p.adb:29:36: info: loop invariant initialization proved (CVC4: 2 VC in max 0.3 seconds and 1 step)
+insertion_sort_p.adb:29:44: info: range check proved (CVC4: 8 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:32:33: info: loop invariant preservation proved (CVC4: 1 VC in max 3.5 seconds and 2869 steps)
+insertion_sort_p.adb:32:33: info: loop invariant initialization proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:32:41: info: range check proved (CVC4: 4 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.adb:33:33: info: precondition proved (CVC4: 1 VC in max 0.0 seconds and 1 step)
+insertion_sort_p.adb:33:33: info: loop invariant preservation proved (CVC4: 1 VC in max 0.2 seconds and 1 step)
+insertion_sort_p.adb:33:33: info: loop invariant initialization proved (CVC4: 1 VC in max 0.1 seconds and 1 step)
+insertion_sort_p.ads:15:15: info: postcondition proved (CVC4: 2 VC in max 0.2 seconds and 1 step)
+insertion_sort_p.ads:15:35: info: precondition proved (CVC4: 1 VC in max 0.0 seconds and 1 step)

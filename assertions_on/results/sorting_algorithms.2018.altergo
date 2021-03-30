@@ -1,0 +1,135 @@
+{"project": {"path": "sorting/sorting_algorithms.gpr", "files": ["is_sorted_p.adb", "partial_sort_p.adb"]}, "version": "2018", "prover": ["altergo"]}
+is_sorted_p.adb:9:33: info: loop invariant preservation proved (altergo: 1 VC in max 10.6 seconds and 9917 steps)
+is_sorted_p.adb:9:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 40 steps)
+is_sorted_p.adb:9:41: info: range check proved (altergo: 4 VC in max 0.0 seconds and 20 steps)
+is_sorted_p.adb:19:37: info: overflow check proved (altergo: 1 VC in max 0.0 seconds and 41 steps)
+is_sorted_p.adb:20:19: info: index check proved (altergo: 4 VC in max 0.0 seconds and 43 steps)
+is_sorted_p.adb:20:29: info: overflow check proved (altergo: 2 VC in max 0.0 seconds and 43 steps)
+is_sorted_p.adb:20:29: info: index check proved (altergo: 4 VC in max 0.0 seconds and 38 steps)
+is_sorted_p.adb:24:36: info: loop invariant preservation proved (altergo: 1 VC in max 0.3 seconds and 350 steps)
+is_sorted_p.adb:24:36: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 68 steps)
+is_sorted_p.adb:24:51: info: range check proved (altergo: 4 VC in max 0.0 seconds and 34 steps)
+is_sorted_p.adb:29:07: info: precondition proved (altergo: 1 VC in max 0.2 seconds and 360 steps)
+is_sorted_p.ads:11:15: info: postcondition proved (altergo: 1 VC in max 0.1 seconds and 312 steps)
+is_sorted_p.ads:16:37: info: contract case proved (altergo: 2 VC in max 0.9 seconds and 974 steps)
+is_sorted_p.ads:17:15: info: contract case proved (altergo: 2 VC in max 0.1 seconds and 222 steps)
+partial_sort_p.adb:10:40: info: range check proved (altergo: 1 VC in max 0.1 seconds and 80 steps)
+partial_sort_p.adb:16:18: info: index check proved (altergo: 4 VC in max 0.2 seconds and 126 steps)
+partial_sort_p.adb:17:13: info: precondition proved (altergo: 4 VC in max 0.2 seconds and 132 steps)
+partial_sort_p.adb:18:13: info: precondition proved (altergo: 10 VC in max 0.2 seconds and 155 steps)
+partial_sort_p.adb:18:32: info: range check proved (altergo: 2 VC in max 0.2 seconds and 151 steps)
+partial_sort_p.adb:20:20: info: length check proved (altergo: 2 VC in max 0.2 seconds and 171 steps)
+partial_sort_p.adb:21:13: medium: precondition might fail
+partial_sort_p.adb:22:13: medium: precondition might fail
+partial_sort_p.adb:22:37: info: initialization of "A_Save" proved
+partial_sort_p.adb:25:10: info: precondition proved (altergo: 6 VC in max 0.3 seconds and 219 steps)
+partial_sort_p.adb:26:33: info: loop invariant preservation proved (altergo: 1 VC in max 0.3 seconds and 168 steps)
+partial_sort_p.adb:26:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.2 seconds and 135 steps)
+partial_sort_p.adb:27:33: info: loop invariant preservation proved (altergo: 1 VC in max 0.3 seconds and 158 steps)
+partial_sort_p.adb:27:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.3 seconds and 217 steps)
+partial_sort_p.adb:28:33: info: loop invariant initialization proved (altergo: 1 VC in max 4.0 seconds and 3360 steps)
+partial_sort_p.adb:28:33: info: loop invariant preservation proved (altergo: 1 VC in max 11.9 seconds and 11247 steps)
+partial_sort_p.adb:28:47: info: range check proved (altergo: 4 VC in max 0.2 seconds and 122 steps)
+partial_sort_p.adb:29:33: info: loop invariant preservation proved (altergo: 1 VC in max 31.2 seconds and 23159 steps)
+partial_sort_p.adb:29:33: info: loop invariant initialization proved (altergo: 1 VC in max 2.0 seconds and 1424 steps)
+partial_sort_p.adb:29:47: info: range check proved (altergo: 4 VC in max 0.2 seconds and 121 steps)
+partial_sort_p.adb:30:33: info: loop invariant initialization proved (altergo: 1 VC in max 2.0 seconds and 2375 steps)
+partial_sort_p.adb:30:33: info: loop invariant preservation proved (altergo: 1 VC in max 22.8 seconds and 18335 steps)
+partial_sort_p.adb:30:33: info: precondition proved (altergo: 1 VC in max 0.6 seconds and 517 steps)
+partial_sort_p.adb:32:13: info: loop invariant initialization proved (altergo: 2 VC in max 3.2 seconds and 2461 steps)
+partial_sort_p.adb:33:15: medium: loop invariant might fail after first iteration, cannot prove H.A (J + 1 .. MAX_SIZE) = H'Loop_EntryH'Loop_Entry.A (J + 1..1000)
+partial_sort_p.adb:33:16: info: range check proved (altergo: 4 VC in max 0.2 seconds and 130 steps)
+partial_sort_p.adb:33:53: info: range check proved (altergo: 4 VC in max 0.2 seconds and 124 steps)
+partial_sort_p.adb:35:14: info: length check proved (altergo: 1 VC in max 0.2 seconds and 119 steps)
+partial_sort_p.adb:36:07: info: precondition proved (altergo: 1 VC in max 0.2 seconds and 129 steps)
+partial_sort_p.adb:39:07: info: precondition proved (altergo: 12 VC in max 29.1 seconds and 23459 steps)
+partial_sort_p.adb:39:29: info: initialization of "A_Save" proved
+partial_sort_p.adb:39:40: info: range check proved (altergo: 1 VC in max 0.2 seconds and 133 steps)
+partial_sort_p.adb:47:25: info: initialization of "H.A" proved
+partial_sort_p.adb:51:35: info: range check proved (altergo: 1 VC in max 0.3 seconds and 123 steps)
+partial_sort_p.adb:54:15: info: precondition proved (altergo: 2 VC in max 0.6 seconds and 358 steps)
+partial_sort_p.adb:54:26: info: range check proved (altergo: 4 VC in max 0.2 seconds and 112 steps)
+partial_sort_p.adb:56:28: info: assertion proved (altergo: 2 VC in max 2.3 seconds and 2364 steps)
+partial_sort_p.adb:56:47: info: initialization of "H.A" proved
+partial_sort_p.adb:56:62: info: range check proved (altergo: 2 VC in max 0.4 seconds and 252 steps)
+partial_sort_p.adb:57:20: info: length check proved (altergo: 2 VC in max 0.4 seconds and 256 steps)
+partial_sort_p.adb:57:23: info: initialization of "H.A" proved
+partial_sort_p.adb:59:13: info: precondition proved (altergo: 10 VC in max 1.7 seconds and 1834 steps)
+partial_sort_p.adb:60:16: info: range check proved (altergo: 8 VC in max 0.9 seconds and 522 steps)
+partial_sort_p.adb:60:36: info: overflow check proved (altergo: 2 VC in max 0.6 seconds and 312 steps)
+partial_sort_p.adb:60:42: info: initialization of "H.A" proved
+partial_sort_p.adb:60:43: info: range check proved (altergo: 8 VC in max 0.6 seconds and 304 steps)
+partial_sort_p.adb:60:54: info: overflow check proved (altergo: 2 VC in max 0.4 seconds and 247 steps)
+partial_sort_p.adb:61:16: info: initialization of "A_Save" proved
+partial_sort_p.adb:61:16: info: range check proved (altergo: 8 VC in max 1.8 seconds and 1279 steps)
+partial_sort_p.adb:61:31: info: overflow check proved (altergo: 2 VC in max 0.4 seconds and 257 steps)
+partial_sort_p.adb:62:20: info: overflow check proved (altergo: 2 VC in max 0.6 seconds and 272 steps)
+partial_sort_p.adb:62:30: info: overflow check proved (altergo: 2 VC in max 0.5 seconds and 299 steps)
+partial_sort_p.adb:62:30: info: index check proved (altergo: 4 VC in max 0.7 seconds and 337 steps)
+partial_sort_p.adb:62:35: info: initialization of "H.A" proved
+partial_sort_p.adb:62:41: info: index check proved (altergo: 4 VC in max 0.5 seconds and 266 steps)
+partial_sort_p.adb:63:13: info: precondition proved (altergo: 10 VC in max 4.2 seconds and 3592 steps)
+partial_sort_p.adb:64:16: info: range check proved (altergo: 8 VC in max 0.6 seconds and 298 steps)
+partial_sort_p.adb:64:36: info: overflow check proved (altergo: 2 VC in max 0.6 seconds and 296 steps)
+partial_sort_p.adb:64:42: info: initialization of "A_Save" proved
+partial_sort_p.adb:64:42: info: range check proved (altergo: 8 VC in max 0.5 seconds and 292 steps)
+partial_sort_p.adb:64:57: info: overflow check proved (altergo: 2 VC in max 0.6 seconds and 290 steps)
+partial_sort_p.adb:65:16: info: initialization of "H.A" proved
+partial_sort_p.adb:65:17: info: range check proved (altergo: 8 VC in max 0.5 seconds and 286 steps)
+partial_sort_p.adb:65:28: info: overflow check proved (altergo: 2 VC in max 0.6 seconds and 284 steps)
+partial_sort_p.adb:66:13: info: precondition proved (altergo: 8 VC in max 5.7 seconds and 3943 steps)
+partial_sort_p.adb:66:26: info: range check proved (altergo: 8 VC in max 1.1 seconds and 616 steps)
+partial_sort_p.adb:66:48: info: initialization of "H.A" proved
+partial_sort_p.adb:66:49: info: range check proved (altergo: 8 VC in max 0.6 seconds and 309 steps)
+partial_sort_p.adb:66:60: info: overflow check proved (altergo: 2 VC in max 0.6 seconds and 304 steps)
+partial_sort_p.adb:66:70: info: overflow check proved (altergo: 2 VC in max 0.5 seconds and 306 steps)
+partial_sort_p.adb:69:16: info: loop invariant preservation proved (altergo: 1 VC in max 1.7 seconds and 1179 steps)
+partial_sort_p.adb:69:16: info: precondition proved (altergo: 1 VC in max 5.0 seconds and 3579 steps)
+partial_sort_p.adb:69:16: info: loop invariant initialization proved (altergo: 1 VC in max 1.1 seconds and 696 steps)
+partial_sort_p.adb:70:19: info: range check proved (altergo: 4 VC in max 0.8 seconds and 488 steps)
+partial_sort_p.adb:70:41: info: initialization of "H.A" proved
+partial_sort_p.adb:70:42: info: range check proved (altergo: 4 VC in max 0.6 seconds and 297 steps)
+partial_sort_p.adb:72:16: info: loop invariant initialization proved (altergo: 1 VC in max 5.7 seconds and 5267 steps)
+partial_sort_p.adb:72:16: info: loop invariant preservation proved (altergo: 1 VC in max 15.8 seconds and 10963 steps)
+partial_sort_p.adb:72:35: info: initialization of "H.A" proved
+partial_sort_p.adb:72:50: info: range check proved (altergo: 1 VC in max 0.4 seconds and 249 steps)
+partial_sort_p.adb:75:17: info: length check proved (altergo: 1 VC in max 0.3 seconds and 146 steps)
+partial_sort_p.adb:75:20: info: initialization of "H.A" proved
+partial_sort_p.adb:76:10: info: precondition proved (altergo: 5 VC in max 2.7 seconds and 2174 steps)
+partial_sort_p.adb:76:41: info: initialization of "H.A" proved
+partial_sort_p.adb:76:42: info: range check proved (altergo: 4 VC in max 0.5 seconds and 423 steps)
+partial_sort_p.adb:76:58: info: initialization of "A_Save" proved
+partial_sort_p.adb:76:58: info: range check proved (altergo: 4 VC in max 1.0 seconds and 1140 steps)
+partial_sort_p.adb:79:10: info: precondition proved (altergo: 5 VC in max 0.5 seconds and 423 steps)
+partial_sort_p.adb:79:29: info: initialization of "H.A" proved
+partial_sort_p.adb:79:29: info: initialization of "H.Size" proved
+partial_sort_p.adb:79:34: info: overflow check proved (altergo: 1 VC in max 0.3 seconds and 166 steps)
+partial_sort_p.adb:79:44: info: range check proved (altergo: 1 VC in max 0.3 seconds and 179 steps)
+partial_sort_p.adb:79:44: info: overflow check proved (altergo: 1 VC in max 0.4 seconds and 175 steps)
+partial_sort_p.adb:81:13: info: precondition proved (altergo: 7 VC in max 4.0 seconds and 3110 steps)
+partial_sort_p.adb:81:31: info: initialization of "H.A" proved
+partial_sort_p.adb:81:36: info: initialization of "A_Save" proved
+partial_sort_p.adb:81:49: info: overflow check proved (altergo: 1 VC in max 0.4 seconds and 192 steps)
+partial_sort_p.adb:83:10: info: precondition proved (altergo: 5 VC in max 10.8 seconds and 8716 steps)
+partial_sort_p.adb:83:41: info: initialization of "A_Save" proved
+partial_sort_p.adb:83:41: info: range check proved (altergo: 4 VC in max 0.4 seconds and 175 steps)
+partial_sort_p.adb:83:61: info: initialization of "H.A" proved
+partial_sort_p.adb:83:62: info: range check proved (altergo: 4 VC in max 0.4 seconds and 172 steps)
+partial_sort_p.adb:84:12: info: length check proved (altergo: 1 VC in max 3.2 seconds and 2861 steps)
+partial_sort_p.adb:84:15: info: initialization of "H.A" proved
+partial_sort_p.adb:84:16: info: range check proved (altergo: 4 VC in max 0.4 seconds and 180 steps)
+partial_sort_p.adb:85:10: info: precondition proved (altergo: 5 VC in max 9.4 seconds and 8230 steps)
+partial_sort_p.adb:85:41: info: initialization of "H.A" proved
+partial_sort_p.adb:85:42: info: range check proved (altergo: 4 VC in max 0.4 seconds and 187 steps)
+partial_sort_p.ads:27:15: info: postcondition proved (altergo: 5 VC in max 9.1 seconds and 6754 steps)
+partial_sort_p.ads:27:24: info: range check proved (altergo: 4 VC in max 0.2 seconds and 132 steps)
+partial_sort_p.ads:27:50: info: precondition proved (altergo: 4 VC in max 2.5 seconds and 1666 steps)
+partial_sort_p.ads:27:70: info: range check proved (altergo: 1 VC in max 0.2 seconds and 143 steps)
+partial_sort_p.ads:28:16: info: precondition proved (altergo: 1 VC in max 0.9 seconds and 1017 steps)
+partial_sort_p.ads:31:15: info: range check proved (altergo: 4 VC in max 0.3 seconds and 158 steps)
+partial_sort_p.ads:31:46: info: range check proved (altergo: 4 VC in max 0.2 seconds and 153 steps)
+partial_sort_p.ads:37:15: info: precondition proved (altergo: 1 VC in max 1.4 seconds and 1885 steps)
+partial_sort_p.ads:37:15: info: postcondition proved (altergo: 3 VC in max 24.7 seconds and 16826 steps)
+partial_sort_p.ads:38:24: info: range check proved (altergo: 4 VC in max 0.3 seconds and 138 steps)
+partial_sort_p.ads:38:55: info: precondition proved (altergo: 4 VC in max 0.5 seconds and 328 steps)
+partial_sort_p.ads:38:73: info: range check proved (altergo: 1 VC in max 0.3 seconds and 157 steps)

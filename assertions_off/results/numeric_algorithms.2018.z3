@@ -1,0 +1,134 @@
+{"project": {"path": "numeric/numeric_algorithms.gpr", "files": ["accumulate_naive_p.adb", "accumulate_p.adb", "adjacent_difference_p.adb", "inner_product_p.adb", "iota_p.adb", "numeric_inv.adb", "partial_sum_p.adb"]}, "version": "2018", "prover": ["z3"]}
+iota_p.adb:11:19: info: initialization of "Count" proved
+iota_p.adb:12:19: info: initialization of "Count" proved
+iota_p.adb:12:25: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+iota_p.adb:13:33: info: initialization of "Count" proved
+iota_p.adb:13:33: info: loop invariant preservation proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+iota_p.adb:13:33: info: loop invariant initialization proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+iota_p.adb:14:33: info: loop invariant preservation proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+iota_p.adb:14:33: info: loop invariant initialization proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+iota_p.adb:14:33: info: precondition proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+iota_p.adb:14:42: info: range check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+iota_p.ads:10:22: info: range check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+iota_p.ads:11:15: info: postcondition proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+iota_p.ads:11:15: info: precondition proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+accumulate_p.adb:14:20: info: initialization of "Result" proved
+accumulate_p.adb:14:27: info: overflow check proved (Z3: 2 VC in max 1.7 seconds and 4580 steps)
+accumulate_p.adb:15:33: info: initialization of "Result" proved
+accumulate_p.adb:15:33: info: loop invariant preservation proved (Z3: 1 VC in max 0.1 seconds and 1 step)
+accumulate_p.adb:15:33: info: loop invariant initialization proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+accumulate_p.adb:15:42: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+accumulate_p.adb:15:71: info: discriminant check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+accumulate_p.adb:19:14: info: initialization of "Result" proved
+accumulate_p.ads:12:40: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+accumulate_p.ads:13:15: info: postcondition proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+accumulate_p.ads:13:35: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+accumulate_p.ads:13:69: info: discriminant check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:11:14: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:11:29: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:16:27: info: overflow check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:20:18: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:20:28: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:20:28: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:20:45: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:20:48: info: overflow check proved (Z3: 2 VC in max 0.1 seconds and 1 step)
+adjacent_difference_p.adb:20:55: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:20:55: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:23:16: info: loop invariant preservation proved (Z3: 1 VC in max 0.2 seconds and 1 step)
+adjacent_difference_p.adb:23:16: info: loop invariant initialization proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:24:33: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:24:49: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:24:60: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:25:36: info: loop invariant preservation proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:25:36: info: loop invariant initialization proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:25:40: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.adb:25:54: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:14:35: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:14:44: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:17:07: info: postcondition proved (Z3: 3 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:18:14: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:18:28: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:21:28: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:21:44: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+adjacent_difference_p.ads:21:54: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+accumulate_naive_p.adb:15:20: info: initialization of "Result" proved
+accumulate_naive_p.adb:15:27: medium: overflow check might fail
+accumulate_naive_p.adb:16:33: info: initialization of "Result" proved
+accumulate_naive_p.adb:16:33: info: loop invariant preservation proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+accumulate_naive_p.adb:16:33: info: loop invariant initialization proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+accumulate_naive_p.adb:16:51: info: range check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+accumulate_naive_p.adb:19:14: info: initialization of "Result" proved
+accumulate_naive_p.ads:12:49: info: range check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+accumulate_naive_p.ads:13:15: info: postcondition proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:11:14: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:11:29: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:13:25: info: range check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:17:24: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:17:24: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:17:43: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:17:43: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:17:54: medium: overflow check might fail
+partial_sum_p.adb:17:67: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:17:67: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:20:16: info: loop invariant preservation proved (Z3: 1 VC in max 24.3 seconds and 824689 steps)
+partial_sum_p.adb:20:16: info: loop invariant initialization proved (Z3: 1 VC in max 0.1 seconds and 1 step)
+partial_sum_p.adb:21:29: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:21:36: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+partial_sum_p.adb:21:72: info: discriminant check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+partial_sum_p.ads:13:41: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+partial_sum_p.ads:15:07: info: postcondition proved (Z3: 1 VC in max 1.0 seconds and 4670 steps)
+partial_sum_p.ads:15:27: info: range check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+partial_sum_p.ads:16:21: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+partial_sum_p.ads:16:28: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+partial_sum_p.ads:16:64: info: discriminant check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:12:22: info: range check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:15:20: info: initialization of "Result" proved
+inner_product_p.adb:15:27: medium: overflow check might fail
+inner_product_p.adb:15:40: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:15:40: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:15:45: medium: overflow check might fail
+inner_product_p.adb:15:58: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:15:58: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:18:13: info: initialization of "Result" proved
+inner_product_p.adb:18:13: medium: loop invariant might fail after first iteration, cannot prove Result = Inner_Prod_Def (A, B, 0, J, Init).Value
+inner_product_p.adb:18:13: info: loop invariant initialization proved (Z3: 1 VC in max 0.1 seconds and 1 step)
+inner_product_p.adb:18:22: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:18:55: info: discriminant check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+inner_product_p.adb:21:14: info: initialization of "Result" proved
+inner_product_p.ads:15:27: info: range check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+inner_product_p.ads:15:42: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+inner_product_p.ads:16:15: info: postcondition proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+inner_product_p.ads:17:07: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+inner_product_p.ads:17:33: info: range check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+inner_product_p.ads:17:51: info: discriminant check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:6:07: warning: initialization of "Init" has no effect
+numeric_inv.adb:13:07: info: precondition proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:16:07: warning: statement has no effect
+numeric_inv.adb:26:07: medium: precondition might fail
+numeric_inv.adb:36:18: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:37:07: info: precondition proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:43:27: info: overflow check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:47:20: info: initialization of "Tmp" proved
+numeric_inv.adb:47:24: medium: overflow check might fail
+numeric_inv.adb:47:31: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:47:41: info: overflow check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:47:41: info: index check proved (Z3: 4 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:49:36: info: initialization of "Tmp" proved
+numeric_inv.adb:49:36: info: loop invariant preservation proved (Z3: 1 VC in max 1.7 seconds and 1404 steps)
+numeric_inv.adb:49:36: info: loop invariant initialization proved (Z3: 1 VC in max 0.1 seconds and 1 step)
+numeric_inv.adb:49:45: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:51:16: info: loop invariant preservation proved (Z3: 2 VC in max 5.2 seconds and 54254 steps)
+numeric_inv.adb:51:16: info: loop invariant initialization proved (Z3: 2 VC in max 0.1 seconds and 1 step)
+numeric_inv.adb:52:18: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:54:20: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:54:66: info: discriminant check proved (Z3: 1 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:55:23: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:57:16: info: loop invariant preservation proved (Z3: 1 VC in max 0.6 seconds and 863 steps)
+numeric_inv.adb:57:16: info: loop invariant initialization proved (Z3: 1 VC in max 0.1 seconds and 1 step)
+numeric_inv.adb:58:18: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+numeric_inv.adb:61:07: info: precondition proved (Z3: 2 VC in max 0.1 seconds and 1 step)
+numeric_inv.ads:13:41: info: precondition proved (Z3: 5 VC in max 0.0 seconds and 1 step)
+numeric_inv.ads:14:15: medium: postcondition might fail, cannot prove A = A'old
+numeric_inv.ads:20:32: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.ads:20:41: info: index check proved (Z3: 2 VC in max 0.0 seconds and 1 step)
+numeric_inv.ads:21:15: medium: postcondition might fail, cannot prove A = A'old

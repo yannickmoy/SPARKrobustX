@@ -1,0 +1,12 @@
+unit, 2018/z3, 2018/cvc4, 2018/altergo, 2019/z3, 2019/cvc4, 2019/altergo, 2020/z3, 2020/cvc4, 2020/altergo, 
+binary_search_p, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+search_equal_range_opt_p, 0, 1, 12, 2, 0, 25, 0, 0, 5, 
+search_equal_range_p, 0, 0, 0, 0, 0, 4, 0, 0, 3, 
+search_lower_bound_p, 0, 0, 12, 0, 0, 6, 0, 0, 8, 
+search_upper_bound_p, 0, 0, 9, 0, 0, 4, 0, 0, 4, 
+total, 0, 1, 12, 2, 0, 25, 0, 0, 8, 
+
+, 2018, 2019, 2020, 
+z3, 0, 2, 0, 
+cvc4, 1, 0, 0, 
+altergo, 12, 25, 8, 

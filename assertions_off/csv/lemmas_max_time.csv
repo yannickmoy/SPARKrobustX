@@ -1,0 +1,13 @@
+unit, 2018/z3, 2018/cvc4, 2018/altergo, 2019/z3, 2019/cvc4, 2019/altergo, 2020/z3, 2020/cvc4, 2020/altergo, 
+classic_lemmas, 0, 0, 4, 0, 0, 41, 3, 3, 1, 
+partial_sort_lemmas, 0, 0, 4, 0, 2, 0, 0, 0, 1, 
+pop_heap_lemmas, 0, 0, 6, 0, 0, 2, 0, 0, 4, 
+push_heap_lemmas, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+remove_copy_lemmas, 0, 0, 0, 0, 0, 11, 0, 0, 42, 
+shuffle_lemmas, 0, 0, 4, 0, 0, 0, 3, 3, 0, 
+total, 0, 0, 6, 0, 2, 41, 3, 3, 42, 
+
+, 2018, 2019, 2020, 
+z3, 0, 0, 3, 
+cvc4, 0, 2, 3, 
+altergo, 6, 41, 42, 

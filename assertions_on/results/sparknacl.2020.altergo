@@ -1,0 +1,1221 @@
+{"project": {"path": "src/sparknacl.gpr", "files": []}, "version": "2020", "prover": ["altergo"]}
+sparknacl-pdebug.adb:2:23: warning: SPARK_Mode not applied to this compilation unit
+sparknacl-pdebug.adb:2:23: warning: only enclosed declarations with SPARK_Mode will be analyzed
+sparknacl-secretbox.adb:15:07: info: initialization of "K2" proved
+sparknacl-secretbox.adb:16:07: info: initialization of "R" proved
+sparknacl-secretbox.adb:23:13: info: precondition proved (altergo: 1 VC in max 0.6 seconds and 2505 steps)
+sparknacl-secretbox.adb:23:20: info: range check proved (altergo: 1 VC in max 0.4 seconds and 1618 steps)
+sparknacl-secretbox.adb:27:16: info: precondition proved (altergo: 4 VC in max 0.1 seconds and 271 steps)
+sparknacl-secretbox.adb:29:29: info: range check proved (altergo: 4 VC in max 0.1 seconds and 273 steps)
+sparknacl-secretbox.adb:32:13: info: range check proved (altergo: 4 VC in max 0.3 seconds and 1843 steps)
+sparknacl-secretbox.adb:32:55: info: overflow check proved (altergo: 4 VC in max 0.5 seconds and 1789 steps)
+sparknacl-secretbox.adb:34:16: info: precondition proved (altergo: 4 VC in max 0.6 seconds and 2494 steps)
+sparknacl-secretbox.adb:37:39: info: range check proved (altergo: 4 VC in max 0.1 seconds and 274 steps)
+sparknacl-secretbox.adb:37:39: info: length check proved (altergo: 4 VC in max 0.7 seconds and 3042 steps)
+sparknacl-secretbox.adb:46:12: info: length check proved (altergo: 4 VC in max 0.1 seconds and 274 steps)
+sparknacl-secretbox.adb:58:07: info: initialization of "X" proved
+sparknacl-secretbox.adb:65:13: info: precondition proved (altergo: 1 VC in max 0.6 seconds and 2506 steps)
+sparknacl-secretbox.adb:65:20: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1619 steps)
+sparknacl-secretbox.adb:68:16: info: precondition proved (altergo: 4 VC in max 0.3 seconds and 2069 steps)
+sparknacl-secretbox.adb:71:13: info: range check proved (altergo: 4 VC in max 0.4 seconds and 1830 steps)
+sparknacl-secretbox.adb:71:55: info: overflow check proved (altergo: 4 VC in max 0.3 seconds and 1783 steps)
+sparknacl-secretbox.adb:74:19: info: precondition proved (altergo: 4 VC in max 0.6 seconds and 2989 steps)
+sparknacl-secretbox.adb:75:21: info: range check proved (altergo: 4 VC in max 0.4 seconds and 1727 steps)
+sparknacl-secretbox.adb:77:30: info: range check proved (altergo: 4 VC in max 0.1 seconds and 297 steps)
+sparknacl-secretbox.adb:77:30: info: length check proved (altergo: 4 VC in max 0.6 seconds and 3509 steps)
+sparknacl-secretbox.adb:81:22: info: precondition proved (altergo: 4 VC in max 0.1 seconds and 295 steps)
+sparknacl-secretbox.adb:86:18: info: length check proved (altergo: 4 VC in max 1.1 seconds and 4575 steps)
+sparknacl-secretbox.adb:93:12: info: length check proved (altergo: 4 VC in max 0.1 seconds and 274 steps)
+sparknacl-secretbox.ads:12:22: info: initialization of "C" proved
+sparknacl-secretbox.ads:13:22: info: initialization of "Status" proved
+sparknacl-secretbox.ads:17:11: info: data dependencies proved
+sparknacl-secretbox.ads:22:21: info: precondition proved (altergo: 1 VC in max 0.6 seconds and 2557 steps)
+sparknacl-secretbox.ads:22:28: info: range check proved (altergo: 1 VC in max 0.6 seconds and 4296 steps)
+sparknacl-secretbox.ads:23:21: info: precondition proved (altergo: 1 VC in max 0.5 seconds and 2594 steps)
+sparknacl-secretbox.ads:23:21: info: postcondition proved (altergo: 1 VC in max 1.0 seconds and 4045 steps)
+sparknacl-secretbox.ads:23:28: info: range check proved (altergo: 1 VC in max 0.1 seconds and 286 steps)
+sparknacl-secretbox.ads:27:07: info: initialization of "M" proved
+sparknacl-secretbox.ads:28:07: info: initialization of "Status" proved
+sparknacl-secretbox.ads:32:11: info: data dependencies proved
+sparknacl-secretbox.ads:37:21: info: precondition proved (altergo: 1 VC in max 0.5 seconds and 2558 steps)
+sparknacl-secretbox.ads:37:28: info: range check proved (altergo: 1 VC in max 0.8 seconds and 4420 steps)
+sparknacl-secretbox.ads:38:21: info: precondition proved (altergo: 1 VC in max 0.6 seconds and 2656 steps)
+sparknacl-secretbox.ads:38:21: info: postcondition proved (altergo: 1 VC in max 0.9 seconds and 5538 steps)
+sparknacl-secretbox.ads:38:28: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1510 steps)
+sparknacl-cryptobox.adb:61:07: info: initialization of "S" proved
+sparknacl-cryptobox.adb:62:07: info: initialization of "LK" proved
+sparknacl-cryptobox.adb:83:16: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 259 steps)
+sparknacl-cryptobox.adb:94:16: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 259 steps)
+sparknacl-cryptobox.adb:104:07: info: initialization of "K" proved
+sparknacl-cryptobox.adb:107:07: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 291 steps)
+sparknacl-cryptobox.adb:119:07: info: initialization of "K" proved
+sparknacl-cryptobox.adb:122:07: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 291 steps)
+sparknacl-cryptobox.ads:19:23: info: initialization of "PK" proved
+sparknacl-cryptobox.ads:20:23: info: initialization of "SK" proved
+sparknacl-cryptobox.ads:21:11: info: data dependencies proved
+sparknacl-cryptobox.ads:24:11: info: data dependencies proved
+sparknacl-cryptobox.ads:27:11: info: data dependencies proved
+sparknacl-cryptobox.ads:30:11: info: data dependencies proved
+sparknacl-cryptobox.ads:33:11: info: data dependencies proved
+sparknacl-cryptobox.ads:36:24: info: initialization of "K" proved
+sparknacl-cryptobox.ads:37:11: info: data dependencies proved
+sparknacl-cryptobox.ads:39:24: info: initialization of "K" proved
+sparknacl-cryptobox.ads:40:11: info: data dependencies proved
+sparknacl-cryptobox.ads:43:24: info: initialization of "K" proved
+sparknacl-cryptobox.ads:46:11: info: data dependencies proved
+sparknacl-cryptobox.ads:50:23: info: initialization of "C" proved
+sparknacl-cryptobox.ads:51:23: info: initialization of "Status" proved
+sparknacl-cryptobox.ads:55:11: info: data dependencies proved
+sparknacl-cryptobox.ads:60:21: info: precondition proved (altergo: 1 VC in max 0.5 seconds and 2225 steps)
+sparknacl-cryptobox.ads:60:28: info: range check proved (altergo: 1 VC in max 0.9 seconds and 3633 steps)
+sparknacl-cryptobox.ads:61:21: info: precondition proved (altergo: 1 VC in max 0.5 seconds and 2184 steps)
+sparknacl-cryptobox.ads:61:21: info: postcondition proved (altergo: 1 VC in max 0.1 seconds and 260 steps)
+sparknacl-cryptobox.ads:61:28: info: range check proved (altergo: 1 VC in max 0.4 seconds and 1452 steps)
+sparknacl-cryptobox.ads:65:07: info: initialization of "M" proved
+sparknacl-cryptobox.ads:66:07: info: initialization of "Status" proved
+sparknacl-cryptobox.ads:70:11: info: data dependencies proved
+sparknacl-cryptobox.ads:75:21: info: precondition proved (altergo: 1 VC in max 0.5 seconds and 2225 steps)
+sparknacl-cryptobox.ads:75:28: info: range check proved (altergo: 1 VC in max 0.9 seconds and 3745 steps)
+sparknacl-cryptobox.ads:76:21: info: precondition proved (altergo: 1 VC in max 0.6 seconds and 2184 steps)
+sparknacl-cryptobox.ads:76:21: info: postcondition proved (altergo: 1 VC in max 0.1 seconds and 260 steps)
+sparknacl-cryptobox.ads:76:28: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1452 steps)
+sparknacl-cryptobox.ads:79:22: info: initialization of "C" proved
+sparknacl-cryptobox.ads:80:22: info: initialization of "Status" proved
+sparknacl-cryptobox.ads:85:11: info: data dependencies proved
+sparknacl-cryptobox.ads:90:21: info: precondition proved (altergo: 1 VC in max 0.4 seconds and 2888 steps)
+sparknacl-cryptobox.ads:90:28: info: range check proved (altergo: 1 VC in max 0.7 seconds and 4958 steps)
+sparknacl-cryptobox.ads:91:21: info: precondition proved (altergo: 1 VC in max 0.7 seconds and 2859 steps)
+sparknacl-cryptobox.ads:91:21: info: postcondition proved (altergo: 1 VC in max 0.1 seconds and 292 steps)
+sparknacl-cryptobox.ads:91:28: info: range check proved (altergo: 1 VC in max 0.4 seconds and 1816 steps)
+sparknacl-cryptobox.ads:95:20: info: initialization of "M" proved
+sparknacl-cryptobox.ads:96:20: info: initialization of "Status" proved
+sparknacl-cryptobox.ads:101:11: info: data dependencies proved
+sparknacl-cryptobox.ads:106:21: info: precondition proved (altergo: 1 VC in max 0.4 seconds and 2888 steps)
+sparknacl-cryptobox.ads:106:28: info: range check proved (altergo: 1 VC in max 0.7 seconds and 5089 steps)
+sparknacl-cryptobox.ads:107:21: info: precondition proved (altergo: 1 VC in max 0.4 seconds and 2859 steps)
+sparknacl-cryptobox.ads:107:21: info: postcondition proved (altergo: 1 VC in max 0.1 seconds and 292 steps)
+sparknacl-cryptobox.ads:107:28: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1816 steps)
+sparknacl-core.adb:14:20: info: initialization of "X" proved
+sparknacl-core.adb:16:11: info: data dependencies proved
+sparknacl-core.adb:19:11: info: data dependencies proved
+sparknacl-core.adb:27:07: info: initialization of "X" proved
+sparknacl-core.adb:28:07: info: initialization of "Y" proved
+sparknacl-core.adb:29:11: info: data dependencies proved
+sparknacl-core.adb:41:27: info: division check proved (altergo: 1 VC in max 0.1 seconds and 244 steps)
+sparknacl-core.adb:41:27: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2131 steps)
+sparknacl-core.adb:48:07: info: initialization of "U" proved
+sparknacl-core.adb:63:07: info: initialization of "W" proved
+sparknacl-core.adb:64:07: info: initialization of "T" proved
+sparknacl-core.adb:69:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 258 steps)
+sparknacl-core.adb:70:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 257 steps)
+sparknacl-core.adb:71:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 256 steps)
+sparknacl-core.adb:72:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 256 steps)
+sparknacl-core.adb:74:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 254 steps)
+sparknacl-core.adb:75:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 254 steps)
+sparknacl-core.adb:76:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 252 steps)
+sparknacl-core.adb:77:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 251 steps)
+sparknacl-core.adb:79:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 249 steps)
+sparknacl-core.adb:80:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 249 steps)
+sparknacl-core.adb:81:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 248 steps)
+sparknacl-core.adb:82:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 247 steps)
+sparknacl-core.adb:84:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 246 steps)
+sparknacl-core.adb:85:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 245 steps)
+sparknacl-core.adb:86:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 245 steps)
+sparknacl-core.adb:87:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 242 steps)
+sparknacl-core.adb:93:35: info: division check proved (altergo: 1 VC in max 0.1 seconds and 323 steps)
+sparknacl-core.adb:94:39: info: division check proved (altergo: 1 VC in max 0.1 seconds and 323 steps)
+sparknacl-core.adb:95:39: info: division check proved (altergo: 1 VC in max 0.1 seconds and 323 steps)
+sparknacl-core.adb:96:40: info: division check proved (altergo: 1 VC in max 0.1 seconds and 323 steps)
+sparknacl-core.adb:103:33: info: division check proved (altergo: 1 VC in max 0.1 seconds and 380 steps)
+sparknacl-core.adb:104:33: info: division check proved (altergo: 1 VC in max 0.2 seconds and 398 steps)
+sparknacl-core.adb:105:33: info: division check proved (altergo: 1 VC in max 0.4 seconds and 405 steps)
+sparknacl-core.adb:106:33: info: division check proved (altergo: 1 VC in max 0.3 seconds and 411 steps)
+sparknacl-core.adb:150:07: info: initialization of "X" proved
+sparknacl-core.adb:150:10: info: initialization of "Y" proved
+sparknacl-core.adb:158:16: info: range check proved (altergo: 1 VC in max 0.4 seconds and 1464 steps)
+sparknacl-core.adb:158:16: info: length check proved (altergo: 1 VC in max 0.5 seconds and 1808 steps)
+sparknacl-core.adb:167:07: info: initialization of "X" proved
+sparknacl-core.adb:167:10: info: initialization of "Y" proved
+sparknacl-core.adb:178:41: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2136 steps)
+sparknacl-core.adb:178:41: info: length check proved (altergo: 1 VC in max 0.7 seconds and 3000 steps)
+sparknacl-core.adb:179:41: info: range check proved (altergo: 1 VC in max 0.1 seconds and 307 steps)
+sparknacl-core.adb:179:41: info: length check proved (altergo: 1 VC in max 0.6 seconds and 2590 steps)
+sparknacl-core.adb:184:16: info: range check proved (altergo: 1 VC in max 0.6 seconds and 2206 steps)
+sparknacl-core.adb:184:16: info: length check proved (altergo: 1 VC in max 1.0 seconds and 4137 steps)
+sparknacl-core.adb:185:16: info: range check proved (altergo: 1 VC in max 0.6 seconds and 2546 steps)
+sparknacl-core.adb:185:16: info: length check proved (altergo: 1 VC in max 0.9 seconds and 3820 steps)
+sparknacl-core.ads:9:11: info: data dependencies proved
+sparknacl-core.ads:11:25: info: initialization of "K" proved
+sparknacl-core.ads:13:11: info: data dependencies proved
+sparknacl-core.ads:16:11: info: data dependencies proved
+sparknacl-core.ads:18:24: info: initialization of "K" proved
+sparknacl-core.ads:19:11: info: data dependencies proved
+sparknacl-core.ads:25:23: info: initialization of "Output" proved
+sparknacl-core.ads:29:11: info: data dependencies proved
+sparknacl-core.ads:31:24: info: initialization of "Output" proved
+sparknacl-core.ads:35:11: info: data dependencies proved
+sparknacl-scalar.adb:7:38: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 1185 steps)
+sparknacl-scalar.adb:7:38: info: predicate check proved (altergo: 1 VC in max 0.2 seconds and 1080 steps)
+sparknacl-scalar.adb:18:26: info: range check proved (altergo: 1 VC in max 0.2 seconds and 1256 steps)
+sparknacl-scalar.adb:18:28: info: range check proved (altergo: 1 VC in max 0.1 seconds and 254 steps)
+sparknacl-scalar.adb:18:40: info: range check proved (altergo: 1 VC in max 0.4 seconds and 1735 steps)
+sparknacl-scalar.adb:18:40: info: length check proved (altergo: 1 VC in max 0.5 seconds and 2748 steps)
+sparknacl-scalar.adb:20:07: info: initialization of "Swap" proved
+sparknacl-scalar.adb:21:07: info: initialization of "CB" proved
+sparknacl-scalar.adb:22:07: info: initialization of "Shift" proved
+sparknacl-scalar.adb:24:07: info: initialization of "A2" proved
+sparknacl-scalar.adb:24:11: info: initialization of "A3" proved
+sparknacl-scalar.adb:24:15: info: initialization of "B" proved
+sparknacl-scalar.adb:24:18: info: initialization of "B2" proved
+sparknacl-scalar.adb:24:22: info: initialization of "C" proved
+sparknacl-scalar.adb:24:25: info: initialization of "C2" proved
+sparknacl-scalar.adb:24:29: info: initialization of "D" proved
+sparknacl-scalar.adb:24:32: info: initialization of "E" proved
+sparknacl-scalar.adb:24:35: info: initialization of "F" proved
+sparknacl-scalar.adb:24:38: info: initialization of "T1" proved
+sparknacl-scalar.adb:24:42: info: initialization of "T2" proved
+sparknacl-scalar.adb:32:20: info: index check proved (altergo: 3 VC in max 1.2 seconds and 5978 steps)
+sparknacl-scalar.adb:32:25: info: range check proved (altergo: 3 VC in max 1.3 seconds and 6482 steps)
+sparknacl-scalar.adb:33:30: medium: range check might fail
+sparknacl-scalar.adb:34:56: info: division check proved (altergo: 6 VC in max 0.2 seconds and 432 steps)
+sparknacl-scalar.adb:36:33: info: loop invariant initialization proved (altergo: 2 VC in max 0.4 seconds and 2560 steps)
+sparknacl-scalar.adb:36:33: info: loop invariant preservation proved (altergo: 4 VC in max 1.0 seconds and 3854 steps)
+sparknacl-scalar.adb:37:33: info: loop invariant preservation proved (altergo: 4 VC in max 2.3 seconds and 11795 steps)
+sparknacl-scalar.adb:37:33: info: loop invariant initialization proved (altergo: 2 VC in max 1.1 seconds and 4399 steps)
+sparknacl-scalar.adb:38:33: info: loop invariant initialization proved (altergo: 2 VC in max 0.7 seconds and 4611 steps)
+sparknacl-scalar.adb:38:33: info: loop invariant preservation proved (altergo: 4 VC in max 1.9 seconds and 11427 steps)
+sparknacl-scalar.adb:39:33: info: loop invariant initialization proved (altergo: 2 VC in max 0.1 seconds and 322 steps)
+sparknacl-scalar.adb:39:33: info: loop invariant preservation proved (altergo: 4 VC in max 2.4 seconds and 10939 steps)
+sparknacl-scalar.adb:41:23: info: predicate check proved (altergo: 2 VC in max 1.0 seconds and 6456 steps)
+sparknacl-scalar.adb:41:27: info: predicate check proved (altergo: 2 VC in max 1.0 seconds and 6541 steps)
+sparknacl-scalar.adb:42:23: info: predicate check proved (altergo: 2 VC in max 1.0 seconds and 6034 steps)
+sparknacl-scalar.adb:42:26: info: predicate check proved (altergo: 2 VC in max 1.0 seconds and 6075 steps)
+sparknacl-scalar.adb:71:23: info: predicate check proved (altergo: 2 VC in max 1.8 seconds and 9916 steps)
+sparknacl-scalar.adb:71:27: info: predicate check proved (altergo: 2 VC in max 1.8 seconds and 10272 steps)
+sparknacl-scalar.adb:72:23: info: predicate check proved (altergo: 2 VC in max 2.0 seconds and 11176 steps)
+sparknacl-scalar.adb:72:26: info: predicate check proved (altergo: 2 VC in max 2.0 seconds and 11137 steps)
+sparknacl-scalar.adb:82:20: info: predicate check proved (altergo: 1 VC in max 0.7 seconds and 3205 steps)
+sparknacl-scalar.adb:83:20: info: predicate check proved (altergo: 1 VC in max 0.7 seconds and 3239 steps)
+sparknacl-scalar.adb:84:20: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 3275 steps)
+sparknacl-scalar.adb:85:20: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 3314 steps)
+sparknacl-scalar.adb:86:20: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 3368 steps)
+sparknacl-scalar.adb:87:20: info: predicate check proved (altergo: 1 VC in max 0.9 seconds and 3412 steps)
+sparknacl-scalar.adb:88:20: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 3459 steps)
+sparknacl-scalar.adb:89:20: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 3508 steps)
+sparknacl-scalar.adb:90:20: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 3549 steps)
+sparknacl-scalar.adb:91:20: info: predicate check proved (altergo: 1 VC in max 0.9 seconds and 3605 steps)
+sparknacl-scalar.adb:92:20: info: predicate check proved (altergo: 1 VC in max 0.9 seconds and 3664 steps)
+sparknacl-scalar.ads:10:11: info: data dependencies proved
+sparknacl-scalar.ads:13:11: info: data dependencies proved
+sparknacl-mac.adb:39:07: info: initialization of "S" proved
+sparknacl-mac.adb:39:10: info: initialization of "U" proved
+sparknacl-mac.adb:40:07: info: initialization of "J" proved
+sparknacl-mac.adb:41:07: info: initialization of "N" proved
+sparknacl-mac.adb:42:07: info: initialization of "M_Offset" proved
+sparknacl-mac.adb:43:07: info: initialization of "X" proved
+sparknacl-mac.adb:43:10: info: initialization of "R" proved
+sparknacl-mac.adb:43:13: info: initialization of "H" proved
+sparknacl-mac.adb:43:16: info: initialization of "C" proved
+sparknacl-mac.adb:43:19: info: initialization of "G" proved
+sparknacl-mac.adb:47:14: info: data dependencies proved
+sparknacl-mac.adb:93:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 337 steps)
+sparknacl-mac.adb:93:13: info: loop invariant preservation proved (altergo: 3 VC in max 0.2 seconds and 446 steps)
+sparknacl-mac.adb:93:15: info: overflow check proved (altergo: 4 VC in max 2.2 seconds and 3271 steps)
+sparknacl-mac.adb:97:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.7 seconds and 3145 steps)
+sparknacl-mac.adb:97:16: info: loop invariant preservation proved (altergo: 1 VC in max 1.0 seconds and 6205 steps)
+sparknacl-mac.adb:97:18: info: overflow check proved (altergo: 2 VC in max 0.2 seconds and 378 steps)
+sparknacl-mac.adb:98:27: info: overflow check proved (altergo: 2 VC in max 3.0 seconds and 8041 steps)
+sparknacl-mac.adb:100:39: info: overflow check proved (altergo: 1 VC in max 2.2 seconds and 5470 steps)
+sparknacl-mac.adb:100:39: info: index check proved (altergo: 1 VC in max 0.1 seconds and 375 steps)
+sparknacl-mac.adb:101:20: info: range check proved (altergo: 1 VC in max 1.1 seconds and 4782 steps)
+sparknacl-mac.adb:107:17: info: overflow check proved (altergo: 3 VC in max 1.0 seconds and 5419 steps)
+sparknacl-mac.adb:113:34: info: overflow check proved (altergo: 3 VC in max 3.2 seconds and 5985 steps)
+sparknacl-mac.adb:122:46: info: index check proved (altergo: 3 VC in max 2.0 seconds and 8582 steps)
+sparknacl-mac.adb:122:72: info: index check proved (altergo: 3 VC in max 2.3 seconds and 13173 steps)
+sparknacl-mac.adb:168:36: info: division check proved (altergo: 3 VC in max 0.2 seconds and 467 steps)
+sparknacl-mac.adb:168:36: medium: range check might fail [possible explanation: call at line 165 should mention H (for argument H) in a postcondition]
+sparknacl-mac.adb:176:07: info: initialization of "X" proved
+sparknacl-mac.adb:178:07: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 228 steps)
+sparknacl-mac.adb:179:14: info: precondition proved (altergo: 1 VC in max 0.4 seconds and 1935 steps)
+sparknacl-mac.ads:9:11: info: data dependencies proved
+sparknacl-mac.ads:11:25: info: initialization of "K" proved
+sparknacl-mac.ads:13:11: info: data dependencies proved
+sparknacl-mac.ads:16:11: info: data dependencies proved
+sparknacl-mac.ads:18:24: info: initialization of "K" proved
+sparknacl-mac.ads:19:11: info: data dependencies proved
+sparknacl-mac.ads:25:27: info: initialization of "Output" proved
+sparknacl-mac.ads:28:11: info: data dependencies proved
+sparknacl-mac.ads:34:11: info: data dependencies proved
+sparknacl-stream.adb:9:07: info: initialization of "C" proved
+sparknacl-stream.adb:15:11: info: data dependencies proved
+sparknacl-stream.adb:33:49: info: division check proved (altergo: 1 VC in max 0.1 seconds and 373 steps)
+sparknacl-stream.adb:33:49: info: range check proved (altergo: 1 VC in max 0.5 seconds and 2413 steps)
+sparknacl-stream.adb:34:15: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2247 steps)
+sparknacl-stream.adb:34:64: info: overflow check proved (altergo: 1 VC in max 0.6 seconds and 2484 steps)
+sparknacl-stream.adb:37:07: info: initialization of "Offset" proved
+sparknacl-stream.adb:38:07: info: initialization of "Final_Offset" proved
+sparknacl-stream.adb:40:07: info: initialization of "Z" proved
+sparknacl-stream.adb:41:07: info: initialization of "X" proved
+sparknacl-stream.adb:42:07: info: initialization of "U" proved
+sparknacl-stream.adb:43:07: info: initialization of "B" proved
+sparknacl-stream.adb:46:09: info: length check proved (altergo: 1 VC in max 1.7 seconds and 7565 steps)
+sparknacl-stream.adb:51:17: info: range check proved (altergo: 1 VC in max 0.6 seconds and 2751 steps)
+sparknacl-stream.adb:58:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.6 seconds and 2844 steps)
+sparknacl-stream.adb:58:16: info: loop invariant preservation proved (altergo: 1 VC in max 0.5 seconds and 2966 steps)
+sparknacl-stream.adb:58:19: info: overflow check proved (altergo: 2 VC in max 0.4 seconds and 2812 steps)
+sparknacl-stream.adb:66:19: info: loop invariant preservation proved (altergo: 8 VC in max 0.9 seconds and 4359 steps)
+sparknacl-stream.adb:66:19: info: loop invariant initialization proved (altergo: 2 VC in max 0.7 seconds and 3901 steps)
+sparknacl-stream.adb:66:27: info: overflow check proved (altergo: 10 VC in max 0.9 seconds and 4042 steps)
+sparknacl-stream.adb:67:44: info: overflow check proved (altergo: 5 VC in max 0.9 seconds and 4180 steps)
+sparknacl-stream.adb:69:26: info: overflow check proved (altergo: 4 VC in max 0.7 seconds and 3664 steps)
+sparknacl-stream.adb:69:26: info: index check proved (altergo: 4 VC in max 0.1 seconds and 447 steps)
+sparknacl-stream.adb:70:43: info: overflow check proved (altergo: 2 VC in max 0.6 seconds and 3446 steps)
+sparknacl-stream.adb:70:43: info: index check proved (altergo: 2 VC in max 0.1 seconds and 441 steps)
+sparknacl-stream.adb:77:33: info: division check proved (altergo: 1 VC in max 0.2 seconds and 446 steps)
+sparknacl-stream.adb:77:33: info: range check proved (altergo: 1 VC in max 1.6 seconds and 7990 steps)
+sparknacl-stream.adb:81:20: info: range check proved (altergo: 1 VC in max 0.7 seconds and 3513 steps)
+sparknacl-stream.adb:87:30: info: overflow check proved (altergo: 1 VC in max 1.0 seconds and 4398 steps)
+sparknacl-stream.adb:87:30: info: range check proved (altergo: 1 VC in max 1.0 seconds and 4668 steps)
+sparknacl-stream.adb:93:43: info: range check proved (altergo: 3 VC in max 0.8 seconds and 3709 steps)
+sparknacl-stream.adb:108:14: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1459 steps)
+sparknacl-stream.adb:108:41: info: range check proved (altergo: 1 VC in max 0.7 seconds and 3676 steps)
+sparknacl-stream.adb:110:16: info: loop invariant initialization proved (altergo: 2 VC in max 0.7 seconds and 3130 steps)
+sparknacl-stream.adb:110:16: info: loop invariant preservation proved (altergo: 8 VC in max 0.6 seconds and 3424 steps)
+sparknacl-stream.adb:110:30: info: overflow check proved (altergo: 10 VC in max 0.8 seconds and 4161 steps)
+sparknacl-stream.adb:111:47: info: overflow check proved (altergo: 5 VC in max 1.0 seconds and 4682 steps)
+sparknacl-stream.adb:113:29: info: overflow check proved (altergo: 4 VC in max 0.8 seconds and 4067 steps)
+sparknacl-stream.adb:113:29: info: index check proved (altergo: 4 VC in max 0.2 seconds and 459 steps)
+sparknacl-stream.adb:115:31: info: overflow check proved (altergo: 2 VC in max 1.1 seconds and 4135 steps)
+sparknacl-stream.adb:115:31: info: index check proved (altergo: 2 VC in max 0.2 seconds and 452 steps)
+sparknacl-stream.adb:116:20: info: index check proved (altergo: 2 VC in max 0.9 seconds and 5044 steps)
+sparknacl-stream.adb:134:07: info: initialization of "Null_M" proved
+sparknacl-stream.adb:137:07: info: precondition proved (altergo: 1 VC in max 0.5 seconds and 2025 steps)
+sparknacl-stream.adb:146:07: info: precondition proved (altergo: 1 VC in max 0.2 seconds and 896 steps)
+sparknacl-stream.adb:153:07: info: initialization of "S" proved
+sparknacl-stream.adb:155:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 334 steps)
+sparknacl-stream.adb:156:07: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 346 steps)
+sparknacl-stream.adb:156:34: info: range check proved (altergo: 1 VC in max 0.1 seconds and 346 steps)
+sparknacl-stream.adb:167:07: info: initialization of "S" proved
+sparknacl-stream.adb:169:35: info: range check proved (altergo: 1 VC in max 0.1 seconds and 340 steps)
+sparknacl-stream.adb:170:07: info: precondition proved (altergo: 1 VC in max 0.3 seconds and 1114 steps)
+sparknacl-stream.adb:173:50: info: range check proved (altergo: 1 VC in max 0.1 seconds and 352 steps)
+sparknacl-stream.ads:14:24: info: initialization of "C" proved
+sparknacl-stream.ads:17:11: info: data dependencies proved
+sparknacl-stream.ads:21:28: info: initialization of "C" proved
+sparknacl-stream.ads:25:11: info: data dependencies proved
+sparknacl-stream.ads:32:23: info: initialization of "C" proved
+sparknacl-stream.ads:35:11: info: data dependencies proved
+sparknacl-stream.ads:38:27: info: initialization of "C" proved
+sparknacl-stream.ads:42:11: info: data dependencies proved
+sparknacl-utils.adb:14:07: info: initialization of "T" proved
+sparknacl-utils.adb:38:16: medium: assertion might fail, cannot prove T = (To_U64 (P (I)) xor To_U64 (Q (I))) [possible explanation: loop invariant at line 50 should mention T]
+sparknacl-utils.adb:47:19: info: range check proved (altergo: 2 VC in max 0.3 seconds and 1711 steps)
+sparknacl-utils.adb:48:19: info: range check proved (altergo: 2 VC in max 0.3 seconds and 1740 steps)
+sparknacl-utils.adb:51:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.5 seconds and 1681 steps)
+sparknacl-utils.adb:51:13: info: loop invariant preservation proved (altergo: 1 VC in max 7.6 seconds and 26829 steps)
+sparknacl-utils.adb:52:24: info: range check proved (altergo: 2 VC in max 0.5 seconds and 1993 steps)
+sparknacl-utils.adb:53:24: info: index check proved (altergo: 2 VC in max 0.1 seconds and 250 steps)
+sparknacl-utils.adb:53:43: info: index check proved (altergo: 2 VC in max 0.1 seconds and 250 steps)
+sparknacl-utils.adb:54:24: info: index check proved (altergo: 2 VC in max 0.1 seconds and 250 steps)
+sparknacl-utils.adb:54:43: info: index check proved (altergo: 2 VC in max 0.8 seconds and 3068 steps)
+sparknacl-utils.adb:56:24: info: range check proved (altergo: 2 VC in max 0.6 seconds and 2019 steps)
+sparknacl-utils.adb:57:24: info: index check proved (altergo: 2 VC in max 0.1 seconds and 250 steps)
+sparknacl-utils.adb:57:43: info: index check proved (altergo: 2 VC in max 0.1 seconds and 250 steps)
+sparknacl-utils.adb:58:24: info: index check proved (altergo: 2 VC in max 0.1 seconds and 250 steps)
+sparknacl-utils.adb:58:43: info: index check proved (altergo: 2 VC in max 0.6 seconds and 3163 steps)
+sparknacl-utils.adb:87:29: info: initialization of "Result" proved
+sparknacl-utils.adb:88:29: info: initialization of "Underflow" proved
+sparknacl-utils.adb:89:14: info: data dependencies proved
+sparknacl-utils.adb:91:24: info: postcondition proved (altergo: 1 VC in max 6.4 seconds and 20769 steps)
+sparknacl-utils.adb:95:14: info: data dependencies proved
+sparknacl-utils.adb:101:10: info: initialization of "Carry" proved
+sparknacl-utils.adb:102:10: info: initialization of "R" proved
+sparknacl-utils.adb:107:25: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1237 steps)
+sparknacl-utils.adb:111:45: info: division check proved (altergo: 2 VC in max 0.1 seconds and 281 steps)
+sparknacl-utils.adb:112:43: info: range check proved (altergo: 2 VC in max 3.0 seconds and 13288 steps)
+sparknacl-utils.adb:113:36: info: division check proved (altergo: 2 VC in max 0.1 seconds and 297 steps)
+sparknacl-utils.adb:116:16: info: loop invariant preservation proved (altergo: 1 VC in max 32.9 seconds and 99312 steps)
+sparknacl-utils.adb:116:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.4 seconds and 1903 steps)
+sparknacl-utils.adb:116:24: info: range check proved (altergo: 2 VC in max 0.7 seconds and 3065 steps)
+sparknacl-utils.adb:117:21: info: index check proved (altergo: 2 VC in max 1.9 seconds and 5969 steps)
+sparknacl-utils.adb:123:36: info: division check proved (altergo: 1 VC in max 0.1 seconds and 244 steps)
+sparknacl-utils.adb:124:40: info: range check proved (altergo: 1 VC in max 0.8 seconds and 4097 steps)
+sparknacl-utils.adb:133:27: info: division check proved (altergo: 1 VC in max 0.1 seconds and 264 steps)
+sparknacl-utils.adb:139:23: medium: predicate check might fail
+sparknacl-utils.adb:149:47: info: division check proved (altergo: 1 VC in max 0.1 seconds and 227 steps)
+sparknacl-utils.adb:149:47: info: range check proved (altergo: 1 VC in max 0.2 seconds and 1080 steps)
+sparknacl-utils.adb:150:47: info: division check proved (altergo: 1 VC in max 0.1 seconds and 231 steps)
+sparknacl-utils.adb:150:47: info: range check proved (altergo: 1 VC in max 0.8 seconds and 2378 steps)
+sparknacl-utils.adb:155:07: info: initialization of "L" proved
+sparknacl-utils.adb:156:07: info: initialization of "R1" proved
+sparknacl-utils.adb:156:11: info: initialization of "R2" proved
+sparknacl-utils.adb:158:07: info: initialization of "First_Underflow" proved
+sparknacl-utils.adb:159:07: info: initialization of "Second_Underflow" proved
+sparknacl-utils.adb:184:07: info: precondition proved (altergo: 1 VC in max 0.3 seconds and 1129 steps)
+sparknacl-utils.adb:184:19: info: predicate check proved (altergo: 1 VC in max 0.2 seconds and 1168 steps)
+sparknacl-utils.adb:185:07: info: precondition proved (altergo: 1 VC in max 0.2 seconds and 1154 steps)
+sparknacl-utils.adb:186:14: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 3251 steps)
+sparknacl-utils.adb:186:18: info: predicate check proved (altergo: 1 VC in max 0.9 seconds and 3188 steps)
+sparknacl-utils.adb:187:18: info: predicate check proved (altergo: 1 VC in max 1.0 seconds and 3861 steps)
+sparknacl-utils.adb:191:20: info: predicate check proved (altergo: 1 VC in max 0.8 seconds and 4347 steps)
+sparknacl-utils.adb:197:27: info: predicate check proved (altergo: 1 VC in max 0.7 seconds and 3489 steps)
+sparknacl-utils.adb:213:10: info: predicate check proved (altergo: 1 VC in max 10.1 seconds and 35225 steps)
+sparknacl-utils.adb:215:07: info: predicate check proved (altergo: 1 VC in max 1.3 seconds and 5869 steps)
+sparknacl-utils.adb:215:24: info: division check proved (altergo: 1 VC in max 0.1 seconds and 223 steps)
+sparknacl-utils.adb:221:07: info: initialization of "C" proved
+sparknacl-utils.adb:237:07: info: initialization of "Result" proved
+sparknacl-utils.ads:22:11: info: data dependencies proved
+sparknacl-utils.ads:23:11: info: disjoint contract cases proved (altergo: 1 VC in max 0.4 seconds and 1429 steps)
+sparknacl-utils.ads:23:11: info: complete contract cases proved (altergo: 1 VC in max 0.4 seconds and 1451 steps)
+sparknacl-utils.ads:24:19: info: contract case proved (altergo: 1 VC in max 1.7 seconds and 7396 steps)
+sparknacl-utils.ads:27:23: info: contract case proved (altergo: 1 VC in max 1.7 seconds and 7318 steps)
+sparknacl-utils.ads:34:11: info: data dependencies proved
+sparknacl-utils.ads:37:11: info: data dependencies proved
+sparknacl-utils.ads:40:11: info: data dependencies proved
+sparknacl-utils.ads:43:11: info: data dependencies proved
+sparknacl-hashing.adb:50:11: info: data dependencies proved
+sparknacl-hashing.adb:54:07: info: initialization of "X" proved
+sparknacl-hashing.adb:58:27: info: division check proved (altergo: 1 VC in max 0.1 seconds and 244 steps)
+sparknacl-hashing.adb:58:27: info: range check proved (altergo: 1 VC in max 0.4 seconds and 1891 steps)
+sparknacl-hashing.adb:68:07: info: initialization of "Z" proved
+sparknacl-hashing.adb:68:10: info: initialization of "B" proved
+sparknacl-hashing.adb:68:13: info: initialization of "A" proved
+sparknacl-hashing.adb:69:07: info: initialization of "W" proved
+sparknacl-hashing.adb:70:07: info: initialization of "T" proved
+sparknacl-hashing.adb:71:07: info: initialization of "LN" proved
+sparknacl-hashing.adb:72:07: info: initialization of "CB" proved
+sparknacl-hashing.adb:80:14: info: data dependencies proved
+sparknacl-hashing.adb:84:14: info: data dependencies proved
+sparknacl-hashing.adb:89:14: info: data dependencies proved
+sparknacl-hashing.adb:94:14: info: data dependencies proved
+sparknacl-hashing.adb:99:14: info: data dependencies proved
+sparknacl-hashing.adb:104:14: info: data dependencies proved
+sparknacl-hashing.adb:107:14: info: data dependencies proved
+sparknacl-hashing.adb:120:33: info: range check proved (altergo: 1 VC in max 0.6 seconds and 606 steps)
+sparknacl-hashing.adb:121:33: info: range check proved (altergo: 1 VC in max 0.6 seconds and 605 steps)
+sparknacl-hashing.adb:122:33: info: range check proved (altergo: 1 VC in max 0.5 seconds and 604 steps)
+sparknacl-hashing.adb:123:33: info: range check proved (altergo: 1 VC in max 0.5 seconds and 602 steps)
+sparknacl-hashing.adb:124:33: info: range check proved (altergo: 1 VC in max 0.7 seconds and 601 steps)
+sparknacl-hashing.adb:125:33: info: range check proved (altergo: 1 VC in max 0.7 seconds and 600 steps)
+sparknacl-hashing.adb:126:33: info: range check proved (altergo: 1 VC in max 0.8 seconds and 598 steps)
+sparknacl-hashing.adb:127:33: info: range check proved (altergo: 1 VC in max 0.8 seconds and 596 steps)
+sparknacl-hashing.adb:136:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.7 seconds and 1109 steps)
+sparknacl-hashing.adb:136:13: info: loop invariant initialization proved (altergo: 1 VC in max 1.8 seconds and 6777 steps)
+sparknacl-hashing.adb:136:17: info: overflow check proved (altergo: 2 VC in max 1.7 seconds and 6773 steps)
+sparknacl-hashing.adb:138:41: info: overflow check proved (altergo: 2 VC in max 2.1 seconds and 6870 steps)
+sparknacl-hashing.adb:140:37: info: range check proved (altergo: 1 VC in max 0.9 seconds and 1121 steps)
+sparknacl-hashing.adb:140:37: info: length check proved (altergo: 1 VC in max 3.3 seconds and 14055 steps)
+sparknacl-hashing.adb:140:43: info: overflow check proved (altergo: 1 VC in max 2.5 seconds and 11948 steps)
+sparknacl-hashing.adb:140:53: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 11858 steps)
+sparknacl-hashing.adb:141:37: info: range check proved (altergo: 1 VC in max 0.7 seconds and 1107 steps)
+sparknacl-hashing.adb:141:37: info: length check proved (altergo: 1 VC in max 3.0 seconds and 13890 steps)
+sparknacl-hashing.adb:141:43: info: overflow check proved (altergo: 1 VC in max 2.2 seconds and 11907 steps)
+sparknacl-hashing.adb:141:53: info: overflow check proved (altergo: 1 VC in max 2.7 seconds and 11898 steps)
+sparknacl-hashing.adb:142:37: info: range check proved (altergo: 1 VC in max 0.7 seconds and 1093 steps)
+sparknacl-hashing.adb:142:37: info: length check proved (altergo: 1 VC in max 3.0 seconds and 13733 steps)
+sparknacl-hashing.adb:142:43: info: overflow check proved (altergo: 1 VC in max 2.4 seconds and 11949 steps)
+sparknacl-hashing.adb:142:54: info: overflow check proved (altergo: 1 VC in max 2.7 seconds and 11939 steps)
+sparknacl-hashing.adb:143:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 1080 steps)
+sparknacl-hashing.adb:143:37: info: length check proved (altergo: 1 VC in max 2.8 seconds and 13584 steps)
+sparknacl-hashing.adb:143:43: info: overflow check proved (altergo: 1 VC in max 2.2 seconds and 11993 steps)
+sparknacl-hashing.adb:143:54: info: overflow check proved (altergo: 1 VC in max 2.7 seconds and 11979 steps)
+sparknacl-hashing.adb:144:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 1065 steps)
+sparknacl-hashing.adb:144:37: info: length check proved (altergo: 1 VC in max 2.9 seconds and 13443 steps)
+sparknacl-hashing.adb:144:43: info: overflow check proved (altergo: 1 VC in max 2.2 seconds and 12036 steps)
+sparknacl-hashing.adb:144:54: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 12020 steps)
+sparknacl-hashing.adb:145:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 1052 steps)
+sparknacl-hashing.adb:145:37: info: length check proved (altergo: 1 VC in max 2.9 seconds and 13309 steps)
+sparknacl-hashing.adb:145:43: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 12081 steps)
+sparknacl-hashing.adb:145:54: info: overflow check proved (altergo: 1 VC in max 2.2 seconds and 12060 steps)
+sparknacl-hashing.adb:146:37: info: range check proved (altergo: 1 VC in max 0.7 seconds and 1037 steps)
+sparknacl-hashing.adb:146:37: info: length check proved (altergo: 1 VC in max 2.7 seconds and 13183 steps)
+sparknacl-hashing.adb:146:43: info: overflow check proved (altergo: 1 VC in max 2.6 seconds and 12126 steps)
+sparknacl-hashing.adb:146:54: info: overflow check proved (altergo: 1 VC in max 3.2 seconds and 12101 steps)
+sparknacl-hashing.adb:147:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 1024 steps)
+sparknacl-hashing.adb:147:37: info: length check proved (altergo: 1 VC in max 2.7 seconds and 13061 steps)
+sparknacl-hashing.adb:147:43: info: overflow check proved (altergo: 1 VC in max 2.6 seconds and 12171 steps)
+sparknacl-hashing.adb:147:54: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 12142 steps)
+sparknacl-hashing.adb:148:37: info: range check proved (altergo: 1 VC in max 0.7 seconds and 1010 steps)
+sparknacl-hashing.adb:148:37: info: length check proved (altergo: 1 VC in max 2.6 seconds and 12945 steps)
+sparknacl-hashing.adb:148:43: info: overflow check proved (altergo: 1 VC in max 3.3 seconds and 12217 steps)
+sparknacl-hashing.adb:148:54: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 12183 steps)
+sparknacl-hashing.adb:149:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 996 steps)
+sparknacl-hashing.adb:149:37: info: length check proved (altergo: 1 VC in max 2.5 seconds and 12833 steps)
+sparknacl-hashing.adb:149:43: info: overflow check proved (altergo: 1 VC in max 2.8 seconds and 12263 steps)
+sparknacl-hashing.adb:149:54: info: overflow check proved (altergo: 1 VC in max 2.7 seconds and 12224 steps)
+sparknacl-hashing.adb:150:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 983 steps)
+sparknacl-hashing.adb:150:37: info: length check proved (altergo: 1 VC in max 3.3 seconds and 12728 steps)
+sparknacl-hashing.adb:150:43: info: overflow check proved (altergo: 1 VC in max 2.2 seconds and 12310 steps)
+sparknacl-hashing.adb:150:54: info: overflow check proved (altergo: 1 VC in max 2.8 seconds and 12266 steps)
+sparknacl-hashing.adb:151:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 969 steps)
+sparknacl-hashing.adb:151:37: info: length check proved (altergo: 1 VC in max 2.3 seconds and 12626 steps)
+sparknacl-hashing.adb:151:43: info: overflow check proved (altergo: 1 VC in max 2.4 seconds and 12358 steps)
+sparknacl-hashing.adb:151:54: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 12307 steps)
+sparknacl-hashing.adb:152:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 955 steps)
+sparknacl-hashing.adb:152:37: info: length check proved (altergo: 1 VC in max 2.6 seconds and 12528 steps)
+sparknacl-hashing.adb:152:43: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 12405 steps)
+sparknacl-hashing.adb:152:54: info: overflow check proved (altergo: 1 VC in max 2.4 seconds and 12349 steps)
+sparknacl-hashing.adb:153:37: info: range check proved (altergo: 1 VC in max 0.7 seconds and 942 steps)
+sparknacl-hashing.adb:153:37: info: length check proved (altergo: 1 VC in max 2.7 seconds and 12432 steps)
+sparknacl-hashing.adb:153:43: info: overflow check proved (altergo: 1 VC in max 2.5 seconds and 12454 steps)
+sparknacl-hashing.adb:153:55: info: overflow check proved (altergo: 1 VC in max 2.4 seconds and 12390 steps)
+sparknacl-hashing.adb:154:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 929 steps)
+sparknacl-hashing.adb:154:37: info: length check proved (altergo: 1 VC in max 2.3 seconds and 12339 steps)
+sparknacl-hashing.adb:154:43: info: overflow check proved (altergo: 1 VC in max 2.4 seconds and 12502 steps)
+sparknacl-hashing.adb:154:55: info: overflow check proved (altergo: 1 VC in max 2.4 seconds and 12432 steps)
+sparknacl-hashing.adb:155:37: info: range check proved (altergo: 1 VC in max 0.6 seconds and 913 steps)
+sparknacl-hashing.adb:155:37: info: length check proved (altergo: 1 VC in max 2.8 seconds and 12246 steps)
+sparknacl-hashing.adb:155:43: info: overflow check proved (altergo: 1 VC in max 2.5 seconds and 12552 steps)
+sparknacl-hashing.adb:155:55: info: overflow check proved (altergo: 1 VC in max 2.3 seconds and 12474 steps)
+sparknacl-hashing.adb:159:36: info: loop invariant initialization proved (altergo: 1 VC in max 0.6 seconds and 758 steps)
+sparknacl-hashing.adb:159:36: info: loop invariant preservation proved (altergo: 1 VC in max 0.7 seconds and 1119 steps)
+sparknacl-hashing.adb:159:40: info: overflow check proved (altergo: 2 VC in max 1.5 seconds and 4307 steps)
+sparknacl-hashing.adb:161:64: info: overflow check proved (altergo: 2 VC in max 0.8 seconds and 1119 steps)
+sparknacl-hashing.adb:165:31: info: division check proved (altergo: 1 VC in max 0.6 seconds and 1098 steps)
+sparknacl-hashing.adb:179:19: info: division check proved (altergo: 1 VC in max 0.8 seconds and 1119 steps)
+sparknacl-hashing.adb:181:47: info: division check proved (altergo: 1 VC in max 0.7 seconds and 1160 steps)
+sparknacl-hashing.adb:182:43: info: division check proved (altergo: 1 VC in max 0.8 seconds and 1159 steps)
+sparknacl-hashing.adb:183:44: info: division check proved (altergo: 1 VC in max 0.7 seconds and 1158 steps)
+sparknacl-hashing.adb:195:25: info: assertion proved (altergo: 1 VC in max 0.6 seconds and 1094 steps)
+sparknacl-hashing.adb:196:19: info: overflow check proved (altergo: 1 VC in max 2.6 seconds and 11213 steps)
+sparknacl-hashing.adb:197:19: info: overflow check proved (altergo: 1 VC in max 1.9 seconds and 6459 steps)
+sparknacl-hashing.adb:202:10: info: range check proved (altergo: 3 VC in max 4.8 seconds and 15183 steps)
+sparknacl-hashing.adb:202:35: info: length check proved (altergo: 3 VC in max 2.8 seconds and 11606 steps)
+sparknacl-hashing.adb:202:38: info: length check proved (altergo: 3 VC in max 0.6 seconds and 768 steps)
+sparknacl-hashing.adb:211:07: info: initialization of "H" proved
+sparknacl-hashing.adb:212:07: info: initialization of "X" proved
+sparknacl-hashing.adb:213:07: info: initialization of "B" proved
+sparknacl-hashing.adb:214:07: info: initialization of "Final_Block_First" proved
+sparknacl-hashing.adb:215:07: info: initialization of "ML_MSB" proved
+sparknacl-hashing.adb:216:07: info: initialization of "ML_LSBs" proved
+sparknacl-hashing.adb:223:47: info: division check proved (altergo: 1 VC in max 0.5 seconds and 509 steps)
+sparknacl-hashing.adb:223:47: info: range check proved (altergo: 1 VC in max 1.0 seconds and 4416 steps)
+sparknacl-hashing.adb:226:39: info: overflow check proved (altergo: 1 VC in max 1.8 seconds and 4775 steps)
+sparknacl-hashing.adb:226:44: info: overflow check proved (altergo: 1 VC in max 1.4 seconds and 4746 steps)
+sparknacl-hashing.adb:227:10: info: range check proved (altergo: 1 VC in max 0.9 seconds and 2443 steps)
+sparknacl-hashing.adb:227:25: info: length check proved (altergo: 1 VC in max 1.1 seconds and 6105 steps)
+sparknacl-hashing.adb:227:28: info: range check proved (altergo: 1 VC in max 1.0 seconds and 4569 steps)
+sparknacl-hashing.adb:227:28: info: length check proved (altergo: 1 VC in max 1.3 seconds and 4723 steps)
+sparknacl-hashing.adb:232:24: info: range check proved (altergo: 2 VC in max 1.2 seconds and 6361 steps)
+sparknacl-hashing.adb:232:43: info: range check proved (altergo: 2 VC in max 1.7 seconds and 5301 steps)
+sparknacl-hashing.adb:233:24: info: range check proved (altergo: 2 VC in max 0.5 seconds and 514 steps)
+sparknacl-hashing.adb:237:25: info: range check proved (altergo: 2 VC in max 0.4 seconds and 573 steps)
+sparknacl-hashing.adb:249:07: info: initialization of "R" proved
+sparknacl-hashing.ads:13:11: info: data dependencies proved
+sparknacl-hashing.ads:16:20: info: initialization of "Output" proved
+sparknacl-hashing.ads:18:11: info: data dependencies proved
+sparknacl-hashing.ads:22:11: info: data dependencies proved
+sparknacl.adb:11:21: info: predicate check proved (altergo: 1 VC in max 0.0 seconds and 59 steps)
+sparknacl.adb:11:21: info: predicate check proved (altergo: 1 VC in max 0.0 seconds and 36 steps)
+sparknacl.adb:14:10: info: predicate check proved (altergo: 2 VC in max 0.1 seconds and 639 steps)
+sparknacl.adb:14:28: info: range check proved (altergo: 2 VC in max 0.1 seconds and 332 steps)
+sparknacl.adb:16:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 91 steps)
+sparknacl.adb:16:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.1 seconds and 256 steps)
+sparknacl.adb:16:21: info: range check proved (altergo: 2 VC in max 0.0 seconds and 197 steps)
+sparknacl.adb:16:54: info: index check proved (altergo: 2 VC in max 0.1 seconds and 334 steps)
+sparknacl.adb:35:39: info: range check proved (altergo: 1 VC in max 0.1 seconds and 106 steps)
+sparknacl.adb:41:42: info: range check proved (altergo: 2 VC in max 0.2 seconds and 489 steps)
+sparknacl.adb:43:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.2 seconds and 757 steps)
+sparknacl.adb:43:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 245 steps)
+sparknacl.adb:44:22: info: range check proved (altergo: 2 VC in max 0.1 seconds and 254 steps)
+sparknacl.adb:44:55: info: index check proved (altergo: 2 VC in max 0.2 seconds and 584 steps)
+sparknacl.adb:51:22: info: range check proved (altergo: 1 VC in max 0.1 seconds and 188 steps)
+sparknacl.adb:53:22: info: assertion proved (altergo: 1 VC in max 0.1 seconds and 840 steps)
+sparknacl.adb:62:42: info: predicate check proved (altergo: 1 VC in max 0.2 seconds and 811 steps)
+sparknacl.adb:67:07: info: initialization of "T" proved
+sparknacl.adb:68:07: info: initialization of "TF" proved
+sparknacl.adb:75:36: info: overflow check proved (altergo: 4 VC in max 0.7 seconds and 4613 steps)
+sparknacl.adb:75:36: info: range check proved (altergo: 4 VC in max 1.4 seconds and 6028 steps)
+sparknacl.adb:75:48: info: overflow check proved (altergo: 4 VC in max 0.4 seconds and 3222 steps)
+sparknacl.adb:80:16: info: loop invariant preservation proved (altergo: 2 VC in max 8.9 seconds and 57216 steps)
+sparknacl.adb:80:16: info: loop invariant initialization proved (altergo: 2 VC in max 1.7 seconds and 15678 steps)
+sparknacl.adb:83:25: info: range check proved (altergo: 4 VC in max 0.4 seconds and 2065 steps)
+sparknacl.adb:84:22: info: index check proved (altergo: 4 VC in max 1.4 seconds and 7184 steps)
+sparknacl.adb:84:36: info: overflow check proved (altergo: 4 VC in max 0.9 seconds and 7299 steps)
+sparknacl.adb:87:25: info: range check proved (altergo: 4 VC in max 0.8 seconds and 5784 steps)
+sparknacl.adb:88:22: info: index check proved (altergo: 4 VC in max 2.0 seconds and 11335 steps)
+sparknacl.adb:91:25: info: range check proved (altergo: 4 VC in max 0.4 seconds and 3620 steps)
+sparknacl.adb:92:22: info: index check proved (altergo: 4 VC in max 1.1 seconds and 7936 steps)
+sparknacl.adb:95:25: info: range check proved (altergo: 4 VC in max 0.8 seconds and 4752 steps)
+sparknacl.adb:96:22: info: index check proved (altergo: 4 VC in max 1.3 seconds and 10592 steps)
+sparknacl.adb:99:25: info: range check proved (altergo: 4 VC in max 0.7 seconds and 5585 steps)
+sparknacl.adb:101:22: info: index check proved (altergo: 4 VC in max 1.5 seconds and 11689 steps)
+sparknacl.adb:104:25: info: range check proved (altergo: 4 VC in max 0.3 seconds and 2068 steps)
+sparknacl.adb:105:22: info: index check proved (altergo: 4 VC in max 0.5 seconds and 4415 steps)
+sparknacl.adb:116:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 865 steps)
+sparknacl.adb:116:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.4 seconds and 3095 steps)
+sparknacl.adb:118:22: info: range check proved (altergo: 2 VC in max 0.1 seconds and 261 steps)
+sparknacl.adb:119:19: info: index check proved (altergo: 2 VC in max 0.2 seconds and 1413 steps)
+sparknacl.adb:119:33: info: overflow check proved (altergo: 2 VC in max 0.4 seconds and 1551 steps)
+sparknacl.adb:120:22: info: range check proved (altergo: 2 VC in max 0.1 seconds and 257 steps)
+sparknacl.adb:121:19: info: index check proved (altergo: 2 VC in max 0.2 seconds and 906 steps)
+sparknacl.adb:122:22: info: range check proved (altergo: 2 VC in max 0.1 seconds and 261 steps)
+sparknacl.adb:123:19: info: index check proved (altergo: 2 VC in max 0.4 seconds and 1934 steps)
+sparknacl.adb:124:22: info: range check proved (altergo: 2 VC in max 0.1 seconds and 258 steps)
+sparknacl.adb:125:19: info: index check proved (altergo: 2 VC in max 0.2 seconds and 918 steps)
+sparknacl.adb:140:10: info: assertion proved (altergo: 1 VC in max 0.1 seconds and 479 steps)
+sparknacl.adb:149:13: info: predicate check proved (altergo: 1 VC in max 0.2 seconds and 1062 steps)
+sparknacl.adb:149:13: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 255 steps)
+sparknacl.adb:161:10: info: predicate check proved (altergo: 3 VC in max 0.6 seconds and 3066 steps)
+sparknacl.adb:161:26: info: range check proved (altergo: 3 VC in max 0.3 seconds and 986 steps)
+sparknacl.adb:164:13: info: loop invariant preservation proved (altergo: 4 VC in max 0.8 seconds and 2552 steps)
+sparknacl.adb:164:13: info: loop invariant initialization proved (altergo: 2 VC in max 0.2 seconds and 796 steps)
+sparknacl.adb:164:22: info: range check proved (altergo: 3 VC in max 0.2 seconds and 819 steps)
+sparknacl.adb:165:20: info: index check proved (altergo: 3 VC in max 0.1 seconds and 74 steps)
+sparknacl.adb:165:28: info: index check proved (altergo: 3 VC in max 0.3 seconds and 1125 steps)
+sparknacl.adb:165:46: info: overflow check proved (altergo: 3 VC in max 0.3 seconds and 1854 steps)
+sparknacl.adb:165:46: info: index check proved (altergo: 3 VC in max 0.5 seconds and 2034 steps)
+sparknacl.adb:167:22: info: range check proved (altergo: 3 VC in max 0.3 seconds and 769 steps)
+sparknacl.adb:168:20: info: index check proved (altergo: 3 VC in max 0.4 seconds and 1928 steps)
+sparknacl.adb:214:11: info: range check proved (altergo: 1 VC in max 0.4 seconds and 1726 steps)
+sparknacl.adb:215:33: info: index check proved (altergo: 2 VC in max 0.4 seconds and 1882 steps)
+sparknacl.adb:217:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.6 seconds and 2260 steps)
+sparknacl.adb:217:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.4 seconds and 1668 steps)
+sparknacl.adb:217:26: info: range check proved (altergo: 2 VC in max 0.6 seconds and 2130 steps)
+sparknacl.adb:217:60: info: index check proved (altergo: 2 VC in max 0.1 seconds and 255 steps)
+sparknacl.adb:217:68: info: index check proved (altergo: 2 VC in max 0.6 seconds and 2490 steps)
+sparknacl.ads:92:11: info: data dependencies proved
+sparknacl.ads:95:21: info: postcondition proved (altergo: 1 VC in max 0.6 seconds and 2454 steps)
+sparknacl.ads:96:51: info: index check proved (altergo: 1 VC in max 0.1 seconds and 241 steps)
+sparknacl.ads:96:59: info: index check proved (altergo: 1 VC in max 0.5 seconds and 1754 steps)
+sparknacl.ads:103:28: info: initialization of "R" proved
+sparknacl.ads:104:11: info: data dependencies proved
+sparknacl.ads:117:24: info: initialization of "R" proved
+sparknacl.ads:118:11: info: data dependencies proved
+sparknacl.ads:340:38: info: predicate check proved (altergo: 1 VC in max 0.4 seconds and 1428 steps)
+sparknacl.ads:340:38: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 1344 steps)
+sparknacl.ads:341:38: info: predicate check proved (altergo: 1 VC in max 0.4 seconds and 1442 steps)
+sparknacl.ads:341:38: info: predicate check proved (altergo: 1 VC in max 0.4 seconds and 1356 steps)
+sparknacl.ads:348:13: info: types in unchecked conversion have the same size (Trivial)
+sparknacl.ads:348:53: info: type is suitable for unchecked conversion (Trivial)
+sparknacl.ads:348:58: info: type is suitable for unchecked conversion (Trivial)
+sparknacl.ads:349:13: info: types in unchecked conversion have the same size (Trivial)
+sparknacl.ads:349:53: info: type is suitable for unchecked conversion (Trivial)
+sparknacl.ads:349:58: info: type is suitable for unchecked conversion (Trivial)
+sparknacl.ads:356:53: info: division check proved (altergo: 1 VC in max 0.1 seconds and 213 steps)
+sparknacl.ads:357:55: info: overflow check proved (altergo: 1 VC in max 0.3 seconds and 1090 steps)
+sparknacl.ads:357:60: info: division check proved (altergo: 1 VC in max 0.1 seconds and 213 steps)
+sparknacl.ads:368:52: info: division check proved (altergo: 1 VC in max 0.0 seconds and 213 steps)
+sparknacl.ads:369:54: info: overflow check proved (altergo: 1 VC in max 0.2 seconds and 1090 steps)
+sparknacl.ads:369:59: info: division check proved (altergo: 1 VC in max 0.1 seconds and 213 steps)
+sparknacl.ads:380:52: info: division check proved (altergo: 1 VC in max 0.0 seconds and 213 steps)
+sparknacl.ads:381:54: info: overflow check proved (altergo: 1 VC in max 0.3 seconds and 1090 steps)
+sparknacl.ads:381:59: info: division check proved (altergo: 1 VC in max 0.1 seconds and 213 steps)
+sparknacl.ads:392:11: info: data dependencies proved
+sparknacl.ads:395:11: info: data dependencies proved
+sparknacl.ads:398:11: info: data dependencies proved
+sparknacl.ads:401:11: info: data dependencies proved
+sparknacl.ads:405:28: info: initialization of "R" proved
+sparknacl.ads:406:11: info: data dependencies proved
+sparknacl.ads:409:27: info: initialization of "R" proved
+sparknacl.ads:410:11: info: data dependencies proved
+sparknacl.ads:412:19: info: postcondition proved (altergo: 1 VC in max 0.0 seconds and 51 steps)
+sparknacl.ads:414:30: info: initialization of "R" proved
+sparknacl.ads:415:11: info: data dependencies proved
+sparknacl.ads:418:32: info: initialization of "R" proved
+sparknacl.ads:419:11: info: data dependencies proved
+sparknacl.ads:422:32: info: initialization of "R" proved
+sparknacl.ads:423:11: info: data dependencies proved
+sparknacl-sanitize.adb:4:06: info: length check proved (altergo: 1 VC in max 0.3 seconds and 1880 steps)
+sparknacl-sanitize_i64_seq.adb:4:06: info: length check proved (altergo: 1 VC in max 0.0 seconds and 280 steps)
+sparknacl-car.adb:38:07: info: initialization of "Carry" proved
+sparknacl-car.adb:39:07: info: initialization of "R" proved
+sparknacl-car.adb:41:12: info: predicate check proved (altergo: 1 VC in max 0.2 seconds and 1066 steps)
+sparknacl-car.adb:43:19: info: range check proved (altergo: 2 VC in max 1.2 seconds and 3802 steps)
+sparknacl-car.adb:46:13: info: assertion proved (altergo: 2 VC in max 1.2 seconds and 4218 steps)
+sparknacl-car.adb:48:13: info: assertion proved (altergo: 2 VC in max 1.4 seconds and 4247 steps)
+sparknacl-car.adb:49:25: info: assertion proved (altergo: 2 VC in max 0.9 seconds and 3154 steps)
+sparknacl-car.adb:51:10: info: predicate check proved (altergo: 2 VC in max 33.4 seconds and 108295 steps)
+sparknacl-car.adb:51:33: info: range check proved (altergo: 2 VC in max 1.3 seconds and 4771 steps)
+sparknacl-car.adb:52:10: info: predicate check proved (altergo: 2 VC in max 6.0 seconds and 17206 steps)
+sparknacl-car.adb:52:25: info: division check proved (altergo: 2 VC in max 0.1 seconds and 318 steps)
+sparknacl-car.adb:55:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.5 seconds and 1866 steps)
+sparknacl-car.adb:55:13: info: loop invariant preservation proved (altergo: 1 VC in max 7.6 seconds and 20850 steps)
+sparknacl-car.adb:55:21: info: range check proved (altergo: 2 VC in max 0.5 seconds and 1501 steps)
+sparknacl-car.adb:55:55: info: index check proved (altergo: 2 VC in max 1.5 seconds and 6051 steps)
+sparknacl-car.adb:56:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.5 seconds and 2214 steps)
+sparknacl-car.adb:56:33: info: loop invariant preservation proved (altergo: 1 VC in max 1.2 seconds and 4916 steps)
+sparknacl-car.adb:58:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.4 seconds and 1088 steps)
+sparknacl-car.adb:58:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.2 seconds and 847 steps)
+sparknacl-car.adb:60:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.7 seconds and 2320 steps)
+sparknacl-car.adb:60:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 304 steps)
+sparknacl-car.adb:60:21: info: range check proved (altergo: 2 VC in max 1.1 seconds and 3678 steps)
+sparknacl-car.adb:60:59: info: index check proved (altergo: 2 VC in max 0.1 seconds and 214 steps)
+sparknacl-car.adb:60:67: info: index check proved (altergo: 2 VC in max 1.6 seconds and 5784 steps)
+sparknacl-car.adb:67:10: info: assertion proved (altergo: 1 VC in max 1.0 seconds and 3805 steps)
+sparknacl-car.adb:68:22: info: assertion proved (altergo: 1 VC in max 1.0 seconds and 2874 steps)
+sparknacl-car.adb:70:16: info: range check proved (altergo: 1 VC in max 0.5 seconds and 1968 steps)
+sparknacl-car.adb:72:22: info: assertion proved (altergo: 1 VC in max 0.3 seconds and 1130 steps)
+sparknacl-car.adb:74:07: info: predicate check proved (altergo: 1 VC in max 11.4 seconds and 34740 steps)
+sparknacl-car.adb:74:22: info: range check proved (altergo: 1 VC in max 1.2 seconds and 3507 steps)
+sparknacl-car.adb:76:22: info: assertion proved (altergo: 1 VC in max 1.4 seconds and 3906 steps)
+sparknacl-car.adb:78:07: info: predicate check proved (altergo: 1 VC in max 3.0 seconds and 8494 steps)
+sparknacl-car.adb:78:24: info: division check proved (altergo: 1 VC in max 0.1 seconds and 254 steps)
+sparknacl-car.adb:80:29: info: predicate check proved (altergo: 1 VC in max 6.2 seconds and 17904 steps)
+sparknacl-car.adb:89:07: info: initialization of "First_Carry" proved
+sparknacl-car.adb:91:07: info: initialization of "Carry" proved
+sparknacl-car.adb:98:07: info: initialization of "R" proved
+sparknacl-car.adb:101:12: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 1138 steps)
+sparknacl-car.adb:103:22: info: range check proved (altergo: 1 VC in max 0.5 seconds and 2152 steps)
+sparknacl-car.adb:104:07: info: predicate check proved (altergo: 1 VC in max 0.9 seconds and 3616 steps)
+sparknacl-car.adb:104:22: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2012 steps)
+sparknacl-car.adb:105:07: info: predicate check proved (altergo: 1 VC in max 1.9 seconds and 5307 steps)
+sparknacl-car.adb:105:22: info: division check proved (altergo: 1 VC in max 0.1 seconds and 231 steps)
+sparknacl-car.adb:107:22: info: assertion proved (altergo: 1 VC in max 0.3 seconds and 1741 steps)
+sparknacl-car.adb:108:22: info: assertion proved (altergo: 1 VC in max 0.4 seconds and 2306 steps)
+sparknacl-car.adb:110:10: info: assertion proved (altergo: 1 VC in max 0.1 seconds and 321 steps)
+sparknacl-car.adb:113:19: info: range check proved (altergo: 2 VC in max 0.7 seconds and 3258 steps)
+sparknacl-car.adb:114:10: medium: predicate check might fail
+sparknacl-car.adb:114:33: info: range check proved (altergo: 2 VC in max 1.9 seconds and 7633 steps)
+sparknacl-car.adb:115:10: info: predicate check proved (altergo: 2 VC in max 17.3 seconds and 72410 steps)
+sparknacl-car.adb:115:25: info: division check proved (altergo: 2 VC in max 0.1 seconds and 452 steps)
+sparknacl-car.adb:118:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.7 seconds and 3013 steps)
+sparknacl-car.adb:118:21: info: range check proved (altergo: 2 VC in max 1.5 seconds and 5037 steps)
+sparknacl-car.adb:118:51: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove R (K) in GF_Normal_Limb
+sparknacl-car.adb:118:55: info: index check proved (altergo: 2 VC in max 2.7 seconds and 11110 steps)
+sparknacl-car.adb:119:33: info: loop invariant preservation proved (altergo: 1 VC in max 2.8 seconds and 12119 steps)
+sparknacl-car.adb:119:33: info: loop invariant initialization proved (altergo: 1 VC in max 1.6 seconds and 6119 steps)
+sparknacl-car.adb:121:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.7 seconds and 2911 steps)
+sparknacl-car.adb:121:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 479 steps)
+sparknacl-car.adb:121:21: info: range check proved (altergo: 2 VC in max 1.2 seconds and 5441 steps)
+sparknacl-car.adb:121:59: info: index check proved (altergo: 2 VC in max 0.1 seconds and 216 steps)
+sparknacl-car.adb:121:67: info: index check proved (altergo: 2 VC in max 2.8 seconds and 11060 steps)
+sparknacl-car.adb:126:10: info: assertion proved (altergo: 1 VC in max 1.8 seconds and 6084 steps)
+sparknacl-car.adb:127:22: info: assertion proved (altergo: 1 VC in max 0.9 seconds and 4007 steps)
+sparknacl-car.adb:129:16: info: range check proved (altergo: 1 VC in max 0.7 seconds and 3034 steps)
+sparknacl-car.adb:131:07: medium: predicate check might fail
+sparknacl-car.adb:131:22: info: range check proved (altergo: 1 VC in max 1.1 seconds and 4764 steps)
+sparknacl-car.adb:132:07: info: predicate check proved (altergo: 1 VC in max 4.1 seconds and 17747 steps)
+sparknacl-car.adb:132:24: info: division check proved (altergo: 1 VC in max 0.1 seconds and 339 steps)
+sparknacl-car.adb:134:31: medium: predicate check might fail
+sparknacl-car.adb:142:07: info: initialization of "Carry" proved
+sparknacl-car.adb:148:07: info: initialization of "R" proved
+sparknacl-car.adb:150:12: info: predicate check proved (altergo: 1 VC in max 0.2 seconds and 1103 steps)
+sparknacl-car.adb:152:16: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2200 steps)
+sparknacl-car.adb:153:07: info: predicate check proved (altergo: 1 VC in max 0.7 seconds and 3382 steps)
+sparknacl-car.adb:153:22: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2084 steps)
+sparknacl-car.adb:154:07: info: predicate check proved (altergo: 1 VC in max 0.9 seconds and 4797 steps)
+sparknacl-car.adb:154:22: info: division check proved (altergo: 1 VC in max 0.1 seconds and 231 steps)
+sparknacl-car.adb:156:22: info: assertion proved (altergo: 1 VC in max 0.4 seconds and 1953 steps)
+sparknacl-car.adb:157:22: info: assertion proved (altergo: 1 VC in max 0.5 seconds and 2435 steps)
+sparknacl-car.adb:159:10: info: assertion proved (altergo: 1 VC in max 0.1 seconds and 320 steps)
+sparknacl-car.adb:162:19: info: range check proved (altergo: 2 VC in max 0.7 seconds and 3651 steps)
+sparknacl-car.adb:163:10: info: predicate check proved (altergo: 2 VC in max 59.4 seconds and 136669 steps)
+sparknacl-car.adb:163:33: info: range check proved (altergo: 2 VC in max 2.3 seconds and 10831 steps)
+sparknacl-car.adb:164:10: info: predicate check proved (altergo: 2 VC in max 23.0 seconds and 116950 steps)
+sparknacl-car.adb:164:25: info: division check proved (altergo: 2 VC in max 0.1 seconds and 452 steps)
+sparknacl-car.adb:167:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.7 seconds and 3303 steps)
+sparknacl-car.adb:167:13: info: loop invariant preservation proved (altergo: 1 VC in max 36.3 seconds and 83719 steps)
+sparknacl-car.adb:167:21: info: range check proved (altergo: 2 VC in max 1.4 seconds and 6304 steps)
+sparknacl-car.adb:167:55: info: index check proved (altergo: 2 VC in max 3.4 seconds and 12527 steps)
+sparknacl-car.adb:168:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.9 seconds and 3912 steps)
+sparknacl-car.adb:168:33: info: loop invariant preservation proved (altergo: 1 VC in max 2.8 seconds and 11888 steps)
+sparknacl-car.adb:170:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.5 seconds and 2883 steps)
+sparknacl-car.adb:170:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 478 steps)
+sparknacl-car.adb:170:21: info: range check proved (altergo: 2 VC in max 1.3 seconds and 6126 steps)
+sparknacl-car.adb:170:59: info: index check proved (altergo: 2 VC in max 0.1 seconds and 214 steps)
+sparknacl-car.adb:170:67: info: index check proved (altergo: 2 VC in max 2.9 seconds and 11806 steps)
+sparknacl-car.adb:175:10: info: assertion proved (altergo: 1 VC in max 1.3 seconds and 6127 steps)
+sparknacl-car.adb:176:22: info: assertion proved (altergo: 1 VC in max 0.9 seconds and 4245 steps)
+sparknacl-car.adb:178:16: info: range check proved (altergo: 1 VC in max 0.6 seconds and 3026 steps)
+sparknacl-car.adb:180:07: info: predicate check proved (altergo: 1 VC in max 37.0 seconds and 103795 steps)
+sparknacl-car.adb:180:22: info: range check proved (altergo: 1 VC in max 1.1 seconds and 5146 steps)
+sparknacl-car.adb:181:07: info: predicate check proved (altergo: 1 VC in max 4.8 seconds and 21622 steps)
+sparknacl-car.adb:181:24: info: division check proved (altergo: 1 VC in max 0.1 seconds and 338 steps)
+sparknacl-car.adb:183:31: info: predicate check proved (altergo: 1 VC in max 49.2 seconds and 111924 steps)
+sparknacl-car.adb:194:07: info: initialization of "Carry" proved
+sparknacl-car.adb:195:07: info: initialization of "R" proved
+sparknacl-car.adb:199:22: info: assertion proved (altergo: 1 VC in max 0.2 seconds and 1165 steps)
+sparknacl-car.adb:202:19: info: range check proved (altergo: 2 VC in max 0.8 seconds and 3037 steps)
+sparknacl-car.adb:203:33: info: range check proved (altergo: 2 VC in max 1.7 seconds and 8311 steps)
+sparknacl-car.adb:204:25: info: division check proved (altergo: 2 VC in max 0.1 seconds and 280 steps)
+sparknacl-car.adb:207:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.5 seconds and 2025 steps)
+sparknacl-car.adb:207:13: info: loop invariant preservation proved (altergo: 1 VC in max 30.2 seconds and 96991 steps)
+sparknacl-car.adb:207:21: info: range check proved (altergo: 2 VC in max 0.8 seconds and 3626 steps)
+sparknacl-car.adb:207:55: info: index check proved (altergo: 2 VC in max 1.2 seconds and 6519 steps)
+sparknacl-car.adb:208:33: info: loop invariant preservation proved (altergo: 1 VC in max 1.5 seconds and 7400 steps)
+sparknacl-car.adb:208:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.7 seconds and 3788 steps)
+sparknacl-car.adb:210:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 283 steps)
+sparknacl-car.adb:210:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.5 seconds and 2239 steps)
+sparknacl-car.adb:210:21: info: range check proved (altergo: 2 VC in max 0.7 seconds and 3738 steps)
+sparknacl-car.adb:210:59: info: index check proved (altergo: 2 VC in max 0.1 seconds and 225 steps)
+sparknacl-car.adb:210:67: info: index check proved (altergo: 2 VC in max 1.7 seconds and 6556 steps)
+sparknacl-car.adb:215:10: info: assertion proved (altergo: 1 VC in max 0.4 seconds and 2514 steps)
+sparknacl-car.adb:216:22: info: assertion proved (altergo: 1 VC in max 0.7 seconds and 2582 steps)
+sparknacl-car.adb:218:16: info: range check proved (altergo: 1 VC in max 0.5 seconds and 2394 steps)
+sparknacl-car.adb:220:22: info: range check proved (altergo: 1 VC in max 1.4 seconds and 5026 steps)
+sparknacl-car.adb:221:24: info: division check proved (altergo: 1 VC in max 0.1 seconds and 248 steps)
+sparknacl-car.adb:223:22: info: assertion proved (altergo: 1 VC in max 36.3 seconds and 112597 steps)
+sparknacl-car.adb:225:31: info: predicate check proved (altergo: 1 VC in max 1.2 seconds and 6176 steps)
+sparknacl-car.adb:248:26: info: division check proved (altergo: 1 VC in max 0.0 seconds and 15 steps)
+sparknacl-car.adb:252:20: info: range check proved (altergo: 1 VC in max 0.0 seconds and 49 steps)
+sparknacl-car.adb:253:18: info: index check proved (altergo: 1 VC in max 0.0 seconds and 19 steps)
+sparknacl-car.adb:253:32: info: index check proved (altergo: 1 VC in max 0.1 seconds and 147 steps)
+sparknacl-car.adb:263:26: info: division check proved (altergo: 1 VC in max 0.0 seconds and 15 steps)
+sparknacl-car.adb:267:20: info: range check proved (altergo: 1 VC in max 0.0 seconds and 49 steps)
+sparknacl-car.adb:268:18: info: index check proved (altergo: 1 VC in max 0.0 seconds and 19 steps)
+sparknacl-car.adb:268:35: info: index check proved (altergo: 1 VC in max 0.0 seconds and 147 steps)
+sparknacl-car.adb:271:07: info: initialization of "Carry" proved
+sparknacl-car.adb:272:07: info: initialization of "R" proved
+sparknacl-car.adb:276:10: info: assertion proved (altergo: 1 VC in max 0.3 seconds and 1411 steps)
+sparknacl-car.adb:280:12: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 1353 steps)
+sparknacl-car.adb:283:10: info: assertion proved (altergo: 1 VC in max 0.2 seconds and 1156 steps)
+sparknacl-car.adb:289:16: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1953 steps)
+sparknacl-car.adb:290:07: info: predicate check proved (altergo: 1 VC in max 1.1 seconds and 5482 steps)
+sparknacl-car.adb:290:22: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2119 steps)
+sparknacl-car.adb:291:07: info: predicate check proved (altergo: 1 VC in max 1.9 seconds and 10611 steps)
+sparknacl-car.adb:291:22: info: division check proved (altergo: 1 VC in max 0.1 seconds and 240 steps)
+sparknacl-car.adb:293:22: info: assertion proved (altergo: 1 VC in max 0.4 seconds and 2238 steps)
+sparknacl-car.adb:294:22: info: assertion proved (altergo: 1 VC in max 0.1 seconds and 288 steps)
+sparknacl-car.adb:294:36: info: division check proved (altergo: 1 VC in max 0.1 seconds and 275 steps)
+sparknacl-car.adb:295:22: info: assertion proved (altergo: 1 VC in max 0.5 seconds and 2516 steps)
+sparknacl-car.adb:297:10: info: assertion proved (altergo: 1 VC in max 0.8 seconds and 4443 steps)
+sparknacl-car.adb:302:10: info: assertion proved (altergo: 1 VC in max 0.6 seconds and 3813 steps)
+sparknacl-car.adb:304:10: info: assertion proved (altergo: 1 VC in max 1.1 seconds and 4232 steps)
+sparknacl-car.adb:307:19: info: range check proved (altergo: 2 VC in max 1.4 seconds and 7961 steps)
+sparknacl-car.adb:308:10: medium: predicate check might fail
+sparknacl-car.adb:308:33: info: range check proved (altergo: 2 VC in max 11.2 seconds and 53174 steps)
+sparknacl-car.adb:309:10: info: predicate check proved (altergo: 2 VC in max 34.4 seconds and 148635 steps)
+sparknacl-car.adb:309:25: info: division check proved (altergo: 2 VC in max 0.2 seconds and 534 steps)
+sparknacl-car.adb:312:13: info: loop invariant initialization proved (altergo: 1 VC in max 1.7 seconds and 8717 steps)
+sparknacl-car.adb:312:21: info: range check proved (altergo: 2 VC in max 3.2 seconds and 16695 steps)
+sparknacl-car.adb:312:51: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove R (K) in GF_Normal_Limb
+sparknacl-car.adb:312:55: info: index check proved (altergo: 2 VC in max 8.7 seconds and 40122 steps)
+sparknacl-car.adb:313:33: info: loop invariant initialization proved (altergo: 1 VC in max 1.1 seconds and 5032 steps)
+sparknacl-car.adb:313:33: info: loop invariant preservation proved (altergo: 1 VC in max 4.6 seconds and 23281 steps)
+sparknacl-car.adb:315:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.2 seconds and 541 steps)
+sparknacl-car.adb:315:13: info: loop invariant preservation proved (altergo: 1 VC in max 0.7 seconds and 3505 steps)
+sparknacl-car.adb:315:21: info: range check proved (altergo: 2 VC in max 3.2 seconds and 17335 steps)
+sparknacl-car.adb:315:59: info: index check proved (altergo: 2 VC in max 0.1 seconds and 220 steps)
+sparknacl-car.adb:315:67: info: index check proved (altergo: 2 VC in max 7.5 seconds and 39636 steps)
+sparknacl-car.adb:316:33: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 505 steps)
+sparknacl-car.adb:316:33: info: loop invariant preservation proved (altergo: 1 VC in max 3.9 seconds and 19741 steps)
+sparknacl-car.adb:322:13: info: loop invariant initialization proved (altergo: 1 VC in max 3.4 seconds and 15990 steps)
+sparknacl-car.adb:322:13: info: loop invariant preservation proved (altergo: 1 VC in max 13.6 seconds and 68039 steps)
+sparknacl-car.adb:324:13: info: loop invariant preservation proved (altergo: 1 VC in max 13.6 seconds and 58878 steps)
+sparknacl-car.adb:324:13: info: loop invariant initialization proved (altergo: 1 VC in max 2.5 seconds and 12808 steps)
+sparknacl-car.adb:329:10: info: assertion proved (altergo: 1 VC in max 1.9 seconds and 8400 steps)
+sparknacl-car.adb:330:22: info: assertion proved (altergo: 1 VC in max 1.1 seconds and 5944 steps)
+sparknacl-car.adb:331:22: info: assertion proved (altergo: 1 VC in max 1.0 seconds and 5222 steps)
+sparknacl-car.adb:333:10: info: assertion proved (altergo: 1 VC in max 1.0 seconds and 4849 steps)
+sparknacl-car.adb:335:10: info: assertion proved (altergo: 1 VC in max 1.1 seconds and 5857 steps)
+sparknacl-car.adb:338:16: info: range check proved (altergo: 1 VC in max 0.8 seconds and 3824 steps)
+sparknacl-car.adb:339:07: medium: predicate check might fail
+sparknacl-car.adb:339:24: info: division check proved (altergo: 1 VC in max 0.1 seconds and 365 steps)
+sparknacl-car.adb:343:31: medium: assertion might fail, cannot prove Carrying_Plus_One (R, X, 15)
+sparknacl-car.adb:345:10: info: assertion proved (altergo: 1 VC in max 10.0 seconds and 50578 steps)
+sparknacl-car.adb:347:49: medium: assertion might fail, cannot prove R (K) in GF_Normal_Limb
+sparknacl-car.adb:355:07: info: predicate check proved (altergo: 1 VC in max 11.8 seconds and 57648 steps)
+sparknacl-car.adb:355:22: info: range check proved (altergo: 1 VC in max 1.6 seconds and 7652 steps)
+sparknacl-car.adb:357:22: info: assertion proved (altergo: 1 VC in max 1.4 seconds and 7464 steps)
+sparknacl-car.adb:358:25: info: predicate check proved (altergo: 1 VC in max 24.7 seconds and 104032 steps)
+sparknacl-car.ads:20:11: info: data dependencies proved
+sparknacl-car.ads:26:11: info: data dependencies proved
+sparknacl-car.ads:32:11: info: data dependencies proved
+sparknacl-car.ads:38:11: info: data dependencies proved
+sparknacl-car.ads:44:11: info: data dependencies proved
+sparknacl-sign.adb:11:34: medium: predicate check might fail
+sparknacl-sign.adb:11:34: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 889 steps)
+sparknacl-sign.adb:16:34: medium: predicate check might fail
+sparknacl-sign.adb:16:34: info: predicate check proved (altergo: 1 VC in max 0.5 seconds and 905 steps)
+sparknacl-sign.adb:21:34: medium: predicate check might fail
+sparknacl-sign.adb:21:34: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 922 steps)
+sparknacl-sign.adb:26:34: medium: predicate check might fail
+sparknacl-sign.adb:26:34: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 939 steps)
+sparknacl-sign.adb:33:34: medium: predicate check might fail
+sparknacl-sign.adb:33:34: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 955 steps)
+sparknacl-sign.adb:38:34: medium: predicate check might fail
+sparknacl-sign.adb:38:34: info: predicate check proved (altergo: 1 VC in max 0.5 seconds and 971 steps)
+sparknacl-sign.adb:56:36: info: initialization of "R" proved
+sparknacl-sign.adb:57:11: info: data dependencies proved
+sparknacl-sign.adb:62:11: info: data dependencies proved
+sparknacl-sign.adb:66:11: info: data dependencies proved
+sparknacl-sign.adb:69:11: info: data dependencies proved
+sparknacl-sign.adb:72:11: info: data dependencies proved
+sparknacl-sign.adb:77:11: info: data dependencies proved
+sparknacl-sign.adb:82:11: info: data dependencies proved
+sparknacl-sign.adb:84:25: info: initialization of "R" proved
+sparknacl-sign.adb:85:25: info: initialization of "OK" proved
+sparknacl-sign.adb:87:11: info: data dependencies proved
+sparknacl-sign.adb:98:23: info: predicate check proved (altergo: 1 VC in max 0.0 seconds and 125 steps)
+sparknacl-sign.adb:105:07: info: initialization of "A" proved
+sparknacl-sign.adb:105:10: info: initialization of "B" proved
+sparknacl-sign.adb:105:13: info: initialization of "C" proved
+sparknacl-sign.adb:105:16: info: initialization of "D" proved
+sparknacl-sign.adb:105:19: info: initialization of "E" proved
+sparknacl-sign.adb:105:22: info: initialization of "F" proved
+sparknacl-sign.adb:105:25: info: initialization of "G" proved
+sparknacl-sign.adb:105:28: info: initialization of "H" proved
+sparknacl-sign.adb:105:31: info: initialization of "T" proved
+sparknacl-sign.adb:114:12: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 76 steps)
+sparknacl-sign.adb:114:16: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 212 steps)
+sparknacl-sign.adb:116:13: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 229 steps)
+sparknacl-sign.adb:116:17: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 225 steps)
+sparknacl-sign.adb:117:13: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 243 steps)
+sparknacl-sign.adb:117:17: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 239 steps)
+sparknacl-sign.adb:118:13: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 87 steps)
+sparknacl-sign.adb:118:17: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 87 steps)
+sparknacl-sign.adb:119:13: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 87 steps)
+sparknacl-sign.adb:119:17: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 87 steps)
+sparknacl-sign.adb:121:32: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 92 steps)
+sparknacl-sign.adb:121:36: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 92 steps)
+sparknacl-sign.adb:122:32: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 90 steps)
+sparknacl-sign.adb:122:36: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 90 steps)
+sparknacl-sign.adb:123:32: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 283 steps)
+sparknacl-sign.adb:123:36: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 279 steps)
+sparknacl-sign.adb:124:32: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 269 steps)
+sparknacl-sign.adb:124:36: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 265 steps)
+sparknacl-sign.adb:130:07: info: initialization of "CB" proved
+sparknacl-sign.adb:131:07: info: initialization of "Swap" proved
+sparknacl-sign.adb:132:07: info: initialization of "LP" proved
+sparknacl-sign.adb:132:11: info: initialization of "LQ" proved
+sparknacl-sign.adb:136:14: info: data dependencies proved
+sparknacl-sign.adb:143:26: info: predicate check proved (altergo: 1 VC in max 0.1 seconds and 666 steps)
+sparknacl-sign.adb:143:33: info: predicate check proved (altergo: 1 VC in max 0.3 seconds and 916 steps)
+sparknacl-sign.adb:155:21: info: index check proved (altergo: 1 VC in max 0.4 seconds and 2464 steps)
+sparknacl-sign.adb:155:26: info: range check proved (altergo: 1 VC in max 0.6 seconds and 2419 steps)
+sparknacl-sign.adb:156:59: medium: range check might fail
+sparknacl-sign.adb:156:67: info: division check proved (altergo: 1 VC in max 0.1 seconds and 280 steps)
+sparknacl-sign.adb:177:07: info: initialization of "D" proved
+sparknacl-sign.adb:180:21: info: division check proved (altergo: 1 VC in max 0.1 seconds and 215 steps)
+sparknacl-sign.adb:185:07: info: initialization of "TX" proved
+sparknacl-sign.adb:185:11: info: initialization of "TY" proved
+sparknacl-sign.adb:185:15: info: initialization of "ZI" proved
+sparknacl-sign.adb:186:07: info: initialization of "R" proved
+sparknacl-sign.adb:230:07: info: initialization of "XL" proved
+sparknacl-sign.adb:238:07: info: initialization of "R" proved
+sparknacl-sign.adb:252:14: info: data dependencies proved
+sparknacl-sign.adb:253:35: info: initialization of "XL" proved
+sparknacl-sign.adb:255:22: info: postcondition proved (altergo: 1 VC in max 0.1 seconds and 419 steps)
+sparknacl-sign.adb:257:66: info: range check proved (altergo: 1 VC in max 0.1 seconds and 282 steps)
+sparknacl-sign.adb:260:14: info: data dependencies proved
+sparknacl-sign.adb:266:66: info: range check proved (altergo: 1 VC in max 0.5 seconds and 1689 steps)
+sparknacl-sign.adb:270:24: medium: postcondition might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:277:14: info: data dependencies proved
+sparknacl-sign.adb:290:26: medium: postcondition might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:296:14: info: data dependencies proved
+sparknacl-sign.adb:297:35: info: initialization of "R" proved
+sparknacl-sign.adb:309:32: info: range check proved (altergo: 2 VC in max 0.1 seconds and 249 steps)
+sparknacl-sign.adb:311:16: info: loop invariant preservation proved (altergo: 1 VC in max 0.1 seconds and 266 steps)
+sparknacl-sign.adb:311:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.0 seconds and 27 steps)
+sparknacl-sign.adb:311:24: info: range check proved (altergo: 2 VC in max 0.1 seconds and 190 steps)
+sparknacl-sign.adb:311:58: info: index check proved (altergo: 2 VC in max 0.0 seconds and 49 steps)
+sparknacl-sign.adb:311:72: info: range check proved (altergo: 2 VC in max 0.1 seconds and 163 steps)
+sparknacl-sign.adb:311:75: info: index check proved (altergo: 2 VC in max 0.1 seconds and 358 steps)
+sparknacl-sign.adb:328:10: info: initialization of "Carry" proved
+sparknacl-sign.adb:329:10: info: initialization of "Adjustment" proved
+sparknacl-sign.adb:340:45: info: range check proved (altergo: 2 VC in max 1.2 seconds and 7865 steps)
+sparknacl-sign.adb:341:38: info: range check proved (altergo: 2 VC in max 1.5 seconds and 12638 steps)
+sparknacl-sign.adb:342:22: info: range check proved (altergo: 2 VC in max 4.3 seconds and 28963 steps)
+sparknacl-sign.adb:343:30: info: range check proved (altergo: 2 VC in max 1.6 seconds and 9829 steps)
+sparknacl-sign.adb:346:16: info: loop invariant initialization proved (altergo: 1 VC in max 3.7 seconds and 19033 steps)
+sparknacl-sign.adb:348:25: info: range check proved (altergo: 2 VC in max 1.6 seconds and 11740 steps)
+sparknacl-sign.adb:349:19: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) in FRL
+sparknacl-sign.adb:349:23: info: index check proved (altergo: 2 VC in max 2.9 seconds and 24544 steps)
+sparknacl-sign.adb:350:25: info: range check proved (altergo: 2 VC in max 1.7 seconds and 13752 steps)
+sparknacl-sign.adb:351:23: info: index check proved (altergo: 2 VC in max 0.1 seconds and 273 steps)
+sparknacl-sign.adb:351:43: info: index check proved (altergo: 2 VC in max 2.5 seconds and 19836 steps)
+sparknacl-sign.adb:355:13: info: assertion proved (altergo: 1 VC in max 4.6 seconds and 19528 steps)
+sparknacl-sign.adb:373:28: info: assertion proved (Trivial)
+sparknacl-sign.adb:376:28: info: assertion proved (Trivial)
+sparknacl-sign.adb:379:28: info: assertion proved (Trivial)
+sparknacl-sign.adb:381:28: info: assertion proved (Trivial)
+sparknacl-sign.adb:383:32: info: range check proved (altergo: 1 VC in max 3.4 seconds and 15252 steps)
+sparknacl-sign.adb:384:22: info: range check proved (altergo: 1 VC in max 24.1 seconds and 90530 steps)
+sparknacl-sign.adb:385:32: info: range check proved (altergo: 1 VC in max 0.6 seconds and 2469 steps)
+sparknacl-sign.adb:387:28: info: assertion proved (altergo: 1 VC in max 28.1 seconds and 90588 steps)
+sparknacl-sign.adb:389:32: info: range check proved (altergo: 1 VC in max 2.5 seconds and 12860 steps)
+sparknacl-sign.adb:390:22: info: range check proved (altergo: 1 VC in max 3.7 seconds and 15949 steps)
+sparknacl-sign.adb:391:32: info: range check proved (altergo: 1 VC in max 0.9 seconds and 4511 steps)
+sparknacl-sign.adb:393:28: info: assertion proved (altergo: 1 VC in max 1.4 seconds and 4712 steps)
+sparknacl-sign.adb:395:32: info: range check proved (altergo: 1 VC in max 4.8 seconds and 20765 steps)
+sparknacl-sign.adb:396:22: info: range check proved (altergo: 1 VC in max 6.5 seconds and 25064 steps)
+sparknacl-sign.adb:397:32: info: range check proved (altergo: 1 VC in max 2.1 seconds and 6016 steps)
+sparknacl-sign.adb:399:28: info: assertion proved (altergo: 1 VC in max 24.4 seconds and 64554 steps)
+sparknacl-sign.adb:401:32: info: range check proved (altergo: 1 VC in max 11.7 seconds and 37753 steps)
+sparknacl-sign.adb:402:22: info: range check proved (altergo: 1 VC in max 56.4 seconds and 65848 steps)
+sparknacl-sign.adb:403:32: info: range check proved (altergo: 1 VC in max 11.9 seconds and 7748 steps)
+sparknacl-sign.adb:406:28: info: assertion proved (Trivial)
+sparknacl-sign.adb:407:28: info: assertion proved (altergo: 1 VC in max 12.5 seconds and 9675 steps)
+sparknacl-sign.adb:412:54: medium: assertion might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:418:29: info: range check proved (altergo: 1 VC in max 58.1 seconds and 45569 steps)
+sparknacl-sign.adb:419:25: info: assertion proved (altergo: 1 VC in max 52.4 seconds and 37256 steps)
+sparknacl-sign.adb:425:10: info: initialization of "Carry" proved
+sparknacl-sign.adb:426:10: info: initialization of "Adjustment" proved
+sparknacl-sign.adb:432:17: medium: range check might fail
+sparknacl-sign.adb:433:41: medium: overflow check might fail
+sparknacl-sign.adb:433:41: medium: array index check might fail
+sparknacl-sign.adb:433:54: medium: range check might fail
+sparknacl-sign.adb:434:41: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Adjustment and Carry]
+sparknacl-sign.adb:435:25: medium: range check might fail
+sparknacl-sign.adb:436:33: info: range check proved (altergo: 4 VC in max 50.3 seconds and 29820 steps)
+sparknacl-sign.adb:439:19: info: loop invariant preservation proved (altergo: 2 VC in max 22.5 seconds and 14675 steps)
+sparknacl-sign.adb:439:19: info: loop invariant initialization proved (altergo: 2 VC in max 5.0 seconds and 1041 steps)
+sparknacl-sign.adb:439:27: medium: range check might fail
+sparknacl-sign.adb:440:25: info: index check proved (altergo: 4 VC in max 0.2 seconds and 297 steps)
+sparknacl-sign.adb:440:45: medium: array index check might fail
+sparknacl-sign.adb:442:19: info: loop invariant initialization proved (altergo: 2 VC in max 43.6 seconds and 19850 steps)
+sparknacl-sign.adb:442:27: medium: range check might fail
+sparknacl-sign.adb:443:21: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) in FRL
+sparknacl-sign.adb:443:25: medium: array index check might fail
+sparknacl-sign.adb:445:19: info: loop invariant preservation proved (altergo: 2 VC in max 22.9 seconds and 14767 steps)
+sparknacl-sign.adb:445:19: info: loop invariant initialization proved (altergo: 2 VC in max 4.9 seconds and 1057 steps)
+sparknacl-sign.adb:445:27: medium: range check might fail
+sparknacl-sign.adb:445:49: medium: overflow check might fail
+sparknacl-sign.adb:446:25: info: index check proved (altergo: 4 VC in max 0.1 seconds and 297 steps)
+sparknacl-sign.adb:446:45: medium: array index check might fail
+sparknacl-sign.adb:448:19: info: loop invariant preservation proved (altergo: 2 VC in max 45.4 seconds and 31241 steps)
+sparknacl-sign.adb:448:27: medium: range check might fail
+sparknacl-sign.adb:448:49: info: overflow check proved (altergo: 4 VC in max 0.2 seconds and 256 steps)
+sparknacl-sign.adb:448:49: info: overflow check proved (altergo: 4 VC in max 0.1 seconds and 256 steps)
+sparknacl-sign.adb:449:21: medium: loop invariant might fail in first iteration, cannot prove XL (K) in PRL
+sparknacl-sign.adb:449:25: medium: array index check might fail
+sparknacl-sign.adb:451:19: info: loop invariant initialization proved (altergo: 2 VC in max 52.5 seconds and 26848 steps)
+sparknacl-sign.adb:451:27: medium: range check might fail
+sparknacl-sign.adb:452:21: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) = XL'Loop_Entry (K)
+sparknacl-sign.adb:452:25: info: index check proved (altergo: 4 VC in max 0.2 seconds and 297 steps)
+sparknacl-sign.adb:452:45: medium: array index check might fail
+sparknacl-sign.adb:454:19: info: loop invariant initialization proved (altergo: 2 VC in max 22.3 seconds and 10160 steps)
+sparknacl-sign.adb:454:19: info: loop invariant preservation proved (altergo: 2 VC in max 23.0 seconds and 14802 steps)
+sparknacl-sign.adb:454:27: medium: range check might fail
+sparknacl-sign.adb:454:66: medium: array index check might fail
+sparknacl-sign.adb:456:19: info: loop invariant initialization proved (altergo: 3 VC in max 58.6 seconds and 30315 steps)
+sparknacl-sign.adb:456:19: medium: loop invariant might not be preserved by an arbitrary iteration
+sparknacl-sign.adb:462:24: medium: range check might fail
+sparknacl-sign.adb:463:18: medium: assertion might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:463:22: medium: array index check might fail
+sparknacl-sign.adb:465:28: medium: assertion might fail, cannot prove XL (I - 16) in FRL
+sparknacl-sign.adb:467:40: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:468:22: medium: range check might fail
+sparknacl-sign.adb:469:40: info: range check proved (altergo: 2 VC in max 45.8 seconds and 14881 steps)
+sparknacl-sign.adb:473:24: medium: range check might fail
+sparknacl-sign.adb:474:18: medium: assertion might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:474:22: medium: array index check might fail
+sparknacl-sign.adb:476:28: medium: assertion might fail, cannot prove XL (I - 15) in FRL
+sparknacl-sign.adb:481:28: medium: assertion might fail, cannot prove Carry in -2**17 .. 64 [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:482:40: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:483:22: info: range check proved (altergo: 2 VC in max 40.7 seconds and 18733 steps)
+sparknacl-sign.adb:484:40: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:488:24: medium: range check might fail
+sparknacl-sign.adb:489:18: medium: assertion might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:489:22: medium: array index check might fail
+sparknacl-sign.adb:491:28: medium: assertion might fail, cannot prove XL (I - 14) in FRL
+sparknacl-sign.adb:492:28: info: assertion proved (altergo: 2 VC in max 48.4 seconds and 18348 steps)
+sparknacl-sign.adb:493:40: info: range check proved (altergo: 2 VC in max 56.2 seconds and 26904 steps)
+sparknacl-sign.adb:494:22: info: range check proved (altergo: 2 VC in max 56.6 seconds and 23676 steps)
+sparknacl-sign.adb:495:40: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:499:24: medium: range check might fail
+sparknacl-sign.adb:500:18: medium: assertion might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:500:22: medium: array index check might fail
+sparknacl-sign.adb:502:28: medium: assertion might fail, cannot prove XL (I - 13) in FRL
+sparknacl-sign.adb:503:28: info: assertion proved (altergo: 2 VC in max 51.1 seconds and 20148 steps)
+sparknacl-sign.adb:504:40: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:505:22: medium: range check might fail
+sparknacl-sign.adb:506:40: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:510:24: medium: range check might fail
+sparknacl-sign.adb:511:18: medium: assertion might fail, cannot prove XL (K) in FRL
+sparknacl-sign.adb:511:22: medium: array index check might fail
+sparknacl-sign.adb:513:28: medium: assertion might fail, cannot prove XL (I - 12) in FRL
+sparknacl-sign.adb:514:28: medium: assertion might fail, cannot prove Carry in -1 .. 1 [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:519:40: medium: range check might fail [possible explanation: loop invariant at line 438 should mention Carry]
+sparknacl-sign.adb:520:28: medium: assertion might fail, cannot prove XL (I - 12) in PRL
+sparknacl-sign.adb:526:24: medium: range check might fail
+sparknacl-sign.adb:527:18: medium: loop invariant might fail in first iteration, cannot prove XL (K) = XL'Loop_Entry (K)
+sparknacl-sign.adb:527:18: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) = XL'Loop_Entry (K)
+sparknacl-sign.adb:527:22: info: index check proved (altergo: 2 VC in max 0.2 seconds and 297 steps)
+sparknacl-sign.adb:527:42: medium: array index check might fail
+sparknacl-sign.adb:530:24: medium: range check might fail
+sparknacl-sign.adb:531:18: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) in FRL
+sparknacl-sign.adb:531:18: medium: loop invariant might fail in first iteration, cannot prove XL (K) in FRL
+sparknacl-sign.adb:531:22: medium: array index check might fail
+sparknacl-sign.adb:533:16: info: loop invariant preservation proved (altergo: 1 VC in max 14.4 seconds and 1230 steps)
+sparknacl-sign.adb:533:16: info: loop invariant initialization proved (altergo: 1 VC in max 2.7 seconds and 654 steps)
+sparknacl-sign.adb:535:24: medium: range check might fail
+sparknacl-sign.adb:536:18: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) in PRL
+sparknacl-sign.adb:536:18: medium: loop invariant might fail in first iteration, cannot prove XL (K) in PRL
+sparknacl-sign.adb:536:22: medium: array index check might fail
+sparknacl-sign.adb:541:15: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (51) >= XL'Loop_Entry (51) + Min_Carry
+sparknacl-sign.adb:541:15: medium: loop invariant might fail in first iteration, cannot prove XL (51) >= XL'Loop_Entry (51) + Min_Carry
+sparknacl-sign.adb:544:15: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (51) <= XL'Loop_Entry (51) + Max_Carry
+sparknacl-sign.adb:544:15: medium: loop invariant might fail in first iteration, cannot prove XL (51) <= XL'Loop_Entry (51) + Max_Carry
+sparknacl-sign.adb:547:24: medium: range check might fail
+sparknacl-sign.adb:548:18: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) = XL'Loop_Entry (K)
+sparknacl-sign.adb:548:18: medium: loop invariant might fail in first iteration, cannot prove XL (K) = XL'Loop_Entry (K)
+sparknacl-sign.adb:548:22: info: index check proved (altergo: 8 VC in max 0.2 seconds and 297 steps)
+sparknacl-sign.adb:548:42: medium: array index check might fail
+sparknacl-sign.adb:550:24: medium: range check might fail
+sparknacl-sign.adb:550:55: medium: loop invariant might fail in first iteration, cannot prove XL (K) = 0
+sparknacl-sign.adb:550:55: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) = 0
+sparknacl-sign.adb:550:59: medium: array index check might fail
+sparknacl-sign.adb:552:16: medium: loop invariant might fail in first iteration
+sparknacl-sign.adb:552:16: medium: loop invariant might not be preserved by an arbitrary iteration
+sparknacl-sign.adb:571:10: info: initialization of "Carry" proved
+sparknacl-sign.adb:576:28: info: assertion proved (altergo: 2 VC in max 1.6 seconds and 7857 steps)
+sparknacl-sign.adb:577:30: info: overflow check proved (altergo: 2 VC in max 5.7 seconds and 31308 steps)
+sparknacl-sign.adb:577:30: info: range check proved (altergo: 2 VC in max 5.3 seconds and 24333 steps)
+sparknacl-sign.adb:577:39: info: overflow check proved (altergo: 2 VC in max 12.2 seconds and 55795 steps)
+sparknacl-sign.adb:577:57: info: overflow check proved (altergo: 2 VC in max 12.9 seconds and 59074 steps)
+sparknacl-sign.adb:579:28: info: assertion proved (altergo: 2 VC in max 3.9 seconds and 26094 steps)
+sparknacl-sign.adb:580:28: info: assertion proved (altergo: 2 VC in max 3.8 seconds and 26196 steps)
+sparknacl-sign.adb:582:22: info: range check proved (altergo: 2 VC in max 1.4 seconds and 10941 steps)
+sparknacl-sign.adb:583:30: info: division check proved (altergo: 2 VC in max 0.2 seconds and 545 steps)
+sparknacl-sign.adb:587:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.6 seconds and 3725 steps)
+sparknacl-sign.adb:587:24: info: range check proved (altergo: 2 VC in max 2.3 seconds and 17326 steps)
+sparknacl-sign.adb:587:54: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) in I64_Byte
+sparknacl-sign.adb:587:58: info: index check proved (altergo: 2 VC in max 5.8 seconds and 36295 steps)
+sparknacl-sign.adb:590:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.1 seconds and 449 steps)
+sparknacl-sign.adb:590:16: info: loop invariant preservation proved (altergo: 1 VC in max 0.8 seconds and 7176 steps)
+sparknacl-sign.adb:590:24: info: range check proved (altergo: 2 VC in max 3.0 seconds and 19786 steps)
+sparknacl-sign.adb:591:22: info: index check proved (altergo: 2 VC in max 0.2 seconds and 287 steps)
+sparknacl-sign.adb:591:42: info: index check proved (altergo: 2 VC in max 5.1 seconds and 32657 steps)
+sparknacl-sign.adb:593:16: info: loop invariant initialization proved (altergo: 1 VC in max 7.8 seconds and 36534 steps)
+sparknacl-sign.adb:593:16: info: loop invariant preservation proved (altergo: 1 VC in max 3.9 seconds and 26386 steps)
+sparknacl-sign.adb:593:24: info: range check proved (altergo: 2 VC in max 2.8 seconds and 19786 steps)
+sparknacl-sign.adb:594:22: info: index check proved (altergo: 2 VC in max 5.0 seconds and 32657 steps)
+sparknacl-sign.adb:597:16: info: loop invariant preservation proved (altergo: 1 VC in max 3.2 seconds and 24129 steps)
+sparknacl-sign.adb:597:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.7 seconds and 3481 steps)
+sparknacl-sign.adb:602:13: info: assertion proved (altergo: 1 VC in max 2.6 seconds and 13273 steps)
+sparknacl-sign.adb:605:13: info: assertion proved (altergo: 1 VC in max 1.6 seconds and 8574 steps)
+sparknacl-sign.adb:609:30: info: range check proved (altergo: 2 VC in max 8.7 seconds and 41097 steps)
+sparknacl-sign.adb:611:16: info: loop invariant initialization proved (altergo: 1 VC in max 15.1 seconds and 62747 steps)
+sparknacl-sign.adb:611:24: medium: range check might fail
+sparknacl-sign.adb:612:18: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) in Step2_XL_Limb
+sparknacl-sign.adb:612:22: medium: array index check might fail
+sparknacl-sign.adb:614:16: info: loop invariant initialization proved (altergo: 1 VC in max 0.6 seconds and 3707 steps)
+sparknacl-sign.adb:614:56: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove XL (K) = 0
+sparknacl-sign.adb:618:13: info: assertion proved (altergo: 1 VC in max 2.8 seconds and 19702 steps)
+sparknacl-sign.adb:620:13: info: assertion proved (altergo: 1 VC in max 0.6 seconds and 3138 steps)
+sparknacl-sign.adb:634:13: info: initialization of "S3C" proved
+sparknacl-sign.adb:638:31: info: assertion proved (altergo: 2 VC in max 1.3 seconds and 6785 steps)
+sparknacl-sign.adb:640:23: info: range check proved (altergo: 2 VC in max 2.0 seconds and 10831 steps)
+sparknacl-sign.adb:641:41: info: range check proved (altergo: 2 VC in max 4.1 seconds and 25189 steps)
+sparknacl-sign.adb:642:38: info: division check proved (altergo: 2 VC in max 0.1 seconds and 383 steps)
+sparknacl-sign.adb:642:38: info: range check proved (altergo: 2 VC in max 0.9 seconds and 4693 steps)
+sparknacl-sign.adb:644:39: info: loop invariant preservation proved (altergo: 1 VC in max 2.4 seconds and 14927 steps)
+sparknacl-sign.adb:644:39: info: loop invariant initialization proved (altergo: 1 VC in max 0.2 seconds and 335 steps)
+sparknacl-sign.adb:645:39: info: loop invariant initialization proved (altergo: 1 VC in max 0.4 seconds and 1023 steps)
+sparknacl-sign.adb:645:39: info: loop invariant preservation proved (altergo: 1 VC in max 0.2 seconds and 401 steps)
+sparknacl-sign.adb:646:39: info: loop invariant initialization proved (altergo: 1 VC in max 0.3 seconds and 1069 steps)
+sparknacl-sign.adb:646:39: info: loop invariant preservation proved (altergo: 1 VC in max 0.2 seconds and 431 steps)
+sparknacl-sign.adb:648:19: info: loop invariant preservation proved (altergo: 1 VC in max 3.4 seconds and 23203 steps)
+sparknacl-sign.adb:649:21: medium: loop invariant might fail in first iteration, cannot prove XL (K) >= Step2_XL_Limb'First - (MXLC * I64 (K))
+sparknacl-sign.adb:651:19: info: loop invariant preservation proved (altergo: 1 VC in max 4.9 seconds and 33754 steps)
+sparknacl-sign.adb:652:21: medium: loop invariant might fail in first iteration, cannot prove XL (K) <= Step2_XL_Limb'Last + (MXLC * I64 (K))
+sparknacl-sign.adb:654:19: info: loop invariant preservation proved (altergo: 1 VC in max 2.7 seconds and 16919 steps)
+sparknacl-sign.adb:654:27: info: range check proved (altergo: 4 VC in max 1.6 seconds and 9883 steps)
+sparknacl-sign.adb:655:21: medium: loop invariant might fail in first iteration, cannot prove XL (K) in Step2_XL_Limb
+sparknacl-sign.adb:655:25: info: index check proved (altergo: 4 VC in max 4.4 seconds and 29659 steps)
+sparknacl-sign.adb:661:07: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 210 steps)
+sparknacl-sign.adb:662:07: info: precondition proved (altergo: 1 VC in max 0.2 seconds and 1423 steps)
+sparknacl-sign.adb:663:07: info: precondition proved (altergo: 1 VC in max 0.3 seconds and 1629 steps)
+sparknacl-sign.adb:667:07: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 210 steps)
+sparknacl-sign.adb:673:07: info: initialization of "R" proved
+sparknacl-sign.adb:674:07: info: initialization of "X" proved
+sparknacl-sign.adb:681:13: info: loop invariant preservation proved (altergo: 1 VC in max 1.2 seconds and 5058 steps)
+sparknacl-sign.adb:681:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.3 seconds and 1283 steps)
+sparknacl-sign.adb:681:21: info: range check proved (altergo: 2 VC in max 0.4 seconds and 1997 steps)
+sparknacl-sign.adb:681:54: info: index check proved (altergo: 2 VC in max 0.6 seconds and 2666 steps)
+sparknacl-sign.adb:685:10: info: assertion proved (altergo: 1 VC in max 0.4 seconds and 1820 steps)
+sparknacl-sign.adb:687:14: info: precondition proved (altergo: 1 VC in max 0.3 seconds and 1827 steps)
+sparknacl-sign.adb:697:14: info: data dependencies proved
+sparknacl-sign.adb:700:14: info: data dependencies proved
+sparknacl-sign.adb:705:17: info: precondition proved (altergo: 1 VC in max 0.2 seconds and 1601 steps)
+sparknacl-sign.adb:711:10: info: initialization of "C" proved
+sparknacl-sign.adb:711:13: info: initialization of "C2" proved
+sparknacl-sign.adb:742:07: info: initialization of "Check" proved
+sparknacl-sign.adb:758:35: info: division check proved (altergo: 1 VC in max 0.1 seconds and 436 steps)
+sparknacl-sign.adb:804:07: info: initialization of "D" proved
+sparknacl-sign.adb:805:07: info: initialization of "LPK" proved
+sparknacl-sign.adb:811:32: info: range check proved (altergo: 1 VC in max 0.1 seconds and 305 steps)
+sparknacl-sign.adb:814:22: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1773 steps)
+sparknacl-sign.adb:814:22: info: length check proved (altergo: 1 VC in max 0.3 seconds and 1974 steps)
+sparknacl-sign.adb:827:07: info: initialization of "RB" proved
+sparknacl-sign.adb:851:07: info: initialization of "D" proved
+sparknacl-sign.adb:852:07: info: initialization of "H" proved
+sparknacl-sign.adb:852:10: info: initialization of "R" proved
+sparknacl-sign.adb:853:07: info: initialization of "X" proved
+sparknacl-sign.adb:854:07: info: initialization of "T" proved
+sparknacl-sign.adb:856:24: info: range check proved (altergo: 1 VC in max 0.1 seconds and 280 steps)
+sparknacl-sign.adb:861:10: info: length check proved (altergo: 1 VC in max 0.7 seconds and 4093 steps)
+sparknacl-sign.adb:861:27: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1840 steps)
+sparknacl-sign.adb:861:29: info: range check proved (altergo: 1 VC in max 0.1 seconds and 318 steps)
+sparknacl-sign.adb:861:42: info: range check proved (altergo: 1 VC in max 0.4 seconds and 2410 steps)
+sparknacl-sign.adb:863:25: info: range check proved (altergo: 1 VC in max 0.1 seconds and 334 steps)
+sparknacl-sign.adb:867:24: info: range check proved (altergo: 1 VC in max 0.1 seconds and 351 steps)
+sparknacl-sign.adb:875:13: info: loop invariant initialization proved (altergo: 1 VC in max 0.9 seconds and 4703 steps)
+sparknacl-sign.adb:875:13: info: loop invariant preservation proved (altergo: 1 VC in max 8.3 seconds and 33253 steps)
+sparknacl-sign.adb:875:22: info: range check proved (altergo: 2 VC in max 0.6 seconds and 3545 steps)
+sparknacl-sign.adb:875:55: info: index check proved (altergo: 2 VC in max 1.1 seconds and 6152 steps)
+sparknacl-sign.adb:876:22: info: range check proved (altergo: 2 VC in max 0.6 seconds and 3572 steps)
+sparknacl-sign.adb:876:55: info: index check proved (altergo: 2 VC in max 1.1 seconds and 6340 steps)
+sparknacl-sign.adb:880:10: info: assertion proved (altergo: 1 VC in max 1.0 seconds and 4434 steps)
+sparknacl-sign.adb:890:36: info: overflow check proved (altergo: 4 VC in max 7.7 seconds and 31099 steps)
+sparknacl-sign.adb:896:16: info: loop invariant preservation proved (altergo: 9 VC in max 51.1 seconds and 195274 steps)
+sparknacl-sign.adb:896:16: info: loop invariant initialization proved (altergo: 9 VC in max 31.5 seconds and 128092 steps)
+sparknacl-sign.adb:902:25: info: range check proved (altergo: 4 VC in max 4.3 seconds and 21693 steps)
+sparknacl-sign.adb:903:22: info: index check proved (altergo: 4 VC in max 7.9 seconds and 39937 steps)
+sparknacl-sign.adb:903:36: info: overflow check proved (altergo: 4 VC in max 14.8 seconds and 69361 steps)
+sparknacl-sign.adb:906:25: info: range check proved (altergo: 4 VC in max 8.2 seconds and 35364 steps)
+sparknacl-sign.adb:907:22: info: index check proved (altergo: 4 VC in max 15.8 seconds and 65593 steps)
+sparknacl-sign.adb:910:25: info: range check proved (altergo: 4 VC in max 10.9 seconds and 40061 steps)
+sparknacl-sign.adb:911:22: info: index check proved (altergo: 4 VC in max 11.0 seconds and 47853 steps)
+sparknacl-sign.adb:914:25: info: range check proved (altergo: 4 VC in max 8.3 seconds and 35001 steps)
+sparknacl-sign.adb:915:22: info: index check proved (altergo: 4 VC in max 13.6 seconds and 60100 steps)
+sparknacl-sign.adb:918:25: info: range check proved (altergo: 4 VC in max 8.6 seconds and 40240 steps)
+sparknacl-sign.adb:920:22: info: index check proved (altergo: 4 VC in max 10.1 seconds and 51826 steps)
+sparknacl-sign.adb:923:25: info: range check proved (altergo: 4 VC in max 2.9 seconds and 16059 steps)
+sparknacl-sign.adb:924:22: info: index check proved (altergo: 4 VC in max 13.1 seconds and 53660 steps)
+sparknacl-sign.adb:931:13: info: loop invariant initialization proved (altergo: 1 VC in max 2.0 seconds and 9845 steps)
+sparknacl-sign.adb:931:13: info: loop invariant preservation proved (altergo: 1 VC in max 7.6 seconds and 26817 steps)
+sparknacl-sign.adb:937:22: info: range check proved (altergo: 2 VC in max 1.4 seconds and 6499 steps)
+sparknacl-sign.adb:938:19: info: index check proved (altergo: 2 VC in max 2.7 seconds and 10510 steps)
+sparknacl-sign.adb:938:33: info: overflow check proved (altergo: 2 VC in max 3.2 seconds and 13359 steps)
+sparknacl-sign.adb:941:22: info: range check proved (altergo: 2 VC in max 0.9 seconds and 4768 steps)
+sparknacl-sign.adb:942:19: info: index check proved (altergo: 2 VC in max 2.4 seconds and 12718 steps)
+sparknacl-sign.adb:945:22: info: range check proved (altergo: 2 VC in max 1.3 seconds and 6491 steps)
+sparknacl-sign.adb:946:19: info: index check proved (altergo: 2 VC in max 3.1 seconds and 15503 steps)
+sparknacl-sign.adb:949:22: info: range check proved (altergo: 2 VC in max 1.0 seconds and 4772 steps)
+sparknacl-sign.adb:950:19: info: index check proved (altergo: 2 VC in max 2.7 seconds and 13215 steps)
+sparknacl-sign.adb:959:10: info: assertion proved (altergo: 1 VC in max 2.2 seconds and 10542 steps)
+sparknacl-sign.adb:972:10: info: assertion proved (altergo: 1 VC in max 0.8 seconds and 4167 steps)
+sparknacl-sign.adb:974:24: info: precondition proved (altergo: 1 VC in max 0.1 seconds and 288 steps)
+sparknacl-sign.adb:989:07: info: initialization of "T" proved
+sparknacl-sign.adb:990:07: info: initialization of "P" proved
+sparknacl-sign.adb:990:10: info: initialization of "Q" proved
+sparknacl-sign.adb:991:07: info: initialization of "LN" proved
+sparknacl-sign.adb:995:12: info: length check proved (altergo: 1 VC in max 0.1 seconds and 262 steps)
+sparknacl-sign.adb:1003:12: info: length check proved (altergo: 1 VC in max 0.4 seconds and 2763 steps)
+sparknacl-sign.adb:1008:09: info: length check proved (altergo: 1 VC in max 0.1 seconds and 269 steps)
+sparknacl-sign.adb:1011:24: info: range check proved (altergo: 1 VC in max 0.3 seconds and 2387 steps)
+sparknacl-sign.adb:1016:14: info: precondition proved (altergo: 1 VC in max 0.6 seconds and 2711 steps)
+sparknacl-sign.adb:1016:21: info: range check proved (altergo: 1 VC in max 0.1 seconds and 285 steps)
+sparknacl-sign.adb:1017:12: info: length check proved (altergo: 1 VC in max 0.5 seconds and 3174 steps)
+sparknacl-sign.adb:1025:34: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1886 steps)
+sparknacl-sign.adb:1027:07: info: range check proved (altergo: 1 VC in max 0.1 seconds and 323 steps)
+sparknacl-sign.adb:1027:18: info: overflow check proved (altergo: 1 VC in max 0.4 seconds and 1611 steps)
+sparknacl-sign.adb:1027:23: info: length check proved (altergo: 1 VC in max 0.6 seconds and 2775 steps)
+sparknacl-sign.adb:1027:26: info: range check proved (altergo: 1 VC in max 0.3 seconds and 1874 steps)
+sparknacl-sign.adb:1027:26: info: length check proved (altergo: 1 VC in max 0.6 seconds and 3603 steps)
+sparknacl-sign.adb:1027:39: info: overflow check proved (altergo: 1 VC in max 0.3 seconds and 1587 steps)
+sparknacl-sign.ads:13:23: info: initialization of "PK" proved
+sparknacl-sign.ads:14:23: info: initialization of "SK" proved
+sparknacl-sign.ads:15:11: info: data dependencies proved
+sparknacl-sign.ads:18:34: info: initialization of "PK" proved
+sparknacl-sign.ads:19:34: info: initialization of "SK" proved
+sparknacl-sign.ads:20:11: info: data dependencies proved
+sparknacl-sign.ads:23:29: info: initialization of "PK" proved
+sparknacl-sign.ads:24:11: info: data dependencies proved
+sparknacl-sign.ads:27:11: info: data dependencies proved
+sparknacl-sign.ads:30:11: info: data dependencies proved
+sparknacl-sign.ads:32:24: info: initialization of "K" proved
+sparknacl-sign.ads:33:11: info: data dependencies proved
+sparknacl-sign.ads:35:24: info: initialization of "K" proved
+sparknacl-sign.ads:36:11: info: data dependencies proved
+sparknacl-sign.ads:44:11: info: data dependencies proved
+sparknacl-sign.ads:52:20: info: initialization of "SM" proved
+sparknacl-sign.ads:55:11: info: data dependencies proved
+sparknacl-sign.ads:60:38: info: overflow check proved (altergo: 1 VC in max 0.6 seconds and 3901 steps)
+sparknacl-sign.ads:62:20: info: initialization of "M" proved
+sparknacl-sign.ads:63:20: info: initialization of "Status" proved
+sparknacl-sign.ads:64:20: info: initialization of "MLen" proved
+sparknacl-sign.ads:67:11: info: data dependencies proved
