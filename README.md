@@ -75,6 +75,22 @@ recognized by all three versions.
 To run the experiment, execute the script ``run_and_compare.py`` on the
 description of your project. You need a version of Python3 >= 3.5
 
+GNATprove is run with all combination of provers among Alt-Ergo, CVC4 and Z3,
+with all three versions of GNATprove found in GNAT Community 2018, 2019 and
+2020. The following switches are passed on the command-line and take precedence
+over switches found in the project file:
+
+- ``--timeout=60`` - 60 seconds timeout for each proof attempt
+
+- ``--steps=0`` - prover steps are not used (which makes the experiment not
+  strictly deterministic, but using timeout is a better measure of effort
+  across provers/versions)
+
+- ``--no-counterexample`` - do not call provers to generate counterexamples
+
+- ``--report=statistics`` - give detailed statistics in terms of maximum
+  time/steps used for proving each check
+
 Results of the GNATprove runs are stored under the ``results`` subdirectory, by
 default under the current directory, or when ``--output`` switch is used under
 that user-defined directory.
