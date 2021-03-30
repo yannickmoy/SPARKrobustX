@@ -51,10 +51,24 @@ directory.
 Then create a symbolic link from ``projects/<project>`` to the root of each
 project.
 
+### Prepare your own project
+
 You can run also the experiment for your own SPARK project, provided it can be
 analyzed by all three versions of SPARK.  Just add a suitable link as above,
 plus a description of the project in directory ``desc`` (see our own
 description files for the JSON format).
+
+For the run without assertions, the easiest is to use a pragma configuration
+file containing the line:
+
+```
+   pragma Assertion_Policy (Assert => Disable);
+```
+
+Make sure to use the attribute ``Switches`` (instead of the more recent
+``Proof_Switches``) in package ``Prove`` in your project files for switches
+that should be taken into account by GNATprove, as this is the only version
+recognized by all three versions.
 
 ## Experiment
 
@@ -74,3 +88,11 @@ Two types of CSV files are produced:
 - files ``*_unproved.csv`` contain data about unproved checks
 
 - files ``*_max_time.csv`` contain data about maximal time for proved checks
+
+## Results
+
+Results for the three projects mentioned above are stored in:
+
+- ``assertions_on`` for the results taking into account assertions in the code
+
+- ``assertions_off`` for the results ignoring assertions in the code
