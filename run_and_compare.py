@@ -35,7 +35,7 @@ num_versions = 3
 version_num = {'2018':0, '2019':1, '2020':2}
 
 # dictionary from project name to
-# dictionary from (version,prover) to (num_unproved,max_time_proved)
+# dictionary from (version,prover) to (num_unproved,max_time_proved,max_time_map)
 project_results = {}
 
 verbose = False
@@ -302,7 +302,7 @@ def extract_one_line(results, version, prover, msg):
         unit = filename[:-4]
         tag = get_tag(text)
         proved = (qual == 'info')
-        time = 0
+        time = -1
         # Warnings are ignored
         if qual == 'warning':
             return
@@ -310,22 +310,24 @@ def extract_one_line(results, version, prover, msg):
             # Checks from flow analysis or that are info-only are ignored
             if is_flow_tag(tag) or is_info_only_tag(tag):
                 return
-            # Only record the max time when a single prover is used
-            if proved and len(prover) == 1:
-                is_time = re.compile(prover[0] + r': \d+ VC in max (\d+).\d+ seconds', re.I)
-                m = re.search(is_time, rest)
-                if m:
-                    time = int(m.group(1))
+            # Record the max time if proved
+            if proved:
+                is_time = re.compile(r': \d+ VC in max (\d+).\d+ seconds', re.I)
+                matches = re.findall(is_time, rest)
+                if len(matches) > 0:
+                    time = max([int(m) for m in matches])
                 else:
                     if verbose:
                         print('Missing time in message: ' + msg, end='')
             unit_results = results.setdefault(unit, dict())
-            (num_unproved,max_time_proved) = unit_results.setdefault((version,prover), (0, 0))
+            (num_unproved,max_time_proved,max_time_map) = unit_results[(version,prover)] if (version,prover) in unit_results else (0, 0, {})
             if not proved:
                 num_unproved += 1
             if time > max_time_proved:
                 max_time_proved = time
-            unit_results[(version,prover)] = (num_unproved,max_time_proved)
+            if time >= 0:
+                max_time_map[time] = max_time_map.setdefault(time, 0) + 1
+            unit_results[(version,prover)] = (num_unproved,max_time_proved,max_time_map)
             return
     # Reach here if the message or the tag were not recognized
     if verbose:
@@ -457,25 +459,42 @@ def print_csv_total(outfile, totals, index):
         print('', file=outfile)
 
 
+# Print max time mapping for totals
+def print_csv_max_time_map(outfile, totals):
+    print('', end=', ', file=outfile)
+    max_time = max([max(mapping.keys()) for (_,_,mapping) in totals.values()])
+    for t in range(max_time+1):
+        print(str(t), end=', ', file=outfile)
+    print('', file=outfile)
+    for (version,prover),(_,_,mapping) in totals.items():
+        max_time = max(mapping.keys())
+        print(version + '/' + '+'.join(prover), end=', ', file=outfile)
+        for t in range(max_time+1):
+            print(str(mapping[t] if t in mapping else 0), end=', ', file=outfile)
+        print('', file=outfile)
+
+
 def print_csv_files(project_name, results, is_project):
     units = list(results.keys())
     units.sort()
 
-    # dictionary from (version,prover) to (num_unproved,max_time_proved)
+    # dictionary from (version,prover) to (num_unproved,max_time_proved,max_time_map)
     totals = {}
 
     # Compute overall project results
     for version in versions:
         for prover in provers:
-            totals[(version,(prover,))] = (0,0)
+            totals[(version,(prover,))] = (0,0,{})
         for prover in provers:
-            totals[(version,tuple(prover_pair(prover)))] = (0,0)
-        totals[(version,tuple(provers))] = (0,0)
+            totals[(version,tuple(prover_pair(prover)))] = (0,0,{})
+        totals[(version,tuple(provers))] = (0,0,{})
 
     for unit in units:
-        for k,(num,time) in results[unit].items():
-            (num_unproved,max_time_proved) = totals[k]
-            totals[k] = (num_unproved + num, max(max_time_proved,time))
+        for k,(num,time,m) in results[unit].items():
+            (num_unproved,max_time_proved,max_time_map) = totals[k]
+            for t,n in m.items():
+                max_time_map[t] = max_time_map.setdefault(t,0) + n
+            totals[k] = (num_unproved + num, max(max_time_proved,time), max_time_map)
 
     # Update global project results
     if is_project:
@@ -493,12 +512,17 @@ def print_csv_files(project_name, results, is_project):
         print_csv_file(outfile, results, index=1)
         print_csv_total(outfile, totals, index=1)
 
+    # Produce CSV file for max time mapping results
+    csvfile = os.path.join(csv_dir(), project_name + '_max_time_map.csv')
+    with open(csvfile, 'w') as outfile:
+        print_csv_max_time_map(outfile, totals)
+
 
 def extract_one_project(project):
     project_name = get_project_name(project)
 
     # dictionary from unit to dictionary of results
-    # of the form ((version,prover) -> (num_unproved,max_time_proved))
+    # of the form ((version,prover) -> (num_unproved,max_time_proved,max_time_map))
     results = {}
 
     # Extract information from all result files for this project

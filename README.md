@@ -105,6 +105,9 @@ Two types of CSV files are produced:
 
 - files ``*_max_time.csv`` contain data about maximal time for proved checks
 
+- files ``*_max_time_map.csv`` contain a mapping from maximal time for proved
+  checks to the number of corresponding checks proved at this maximal time
+
 ## Results
 
 Results for the three projects mentioned above are stored in:
